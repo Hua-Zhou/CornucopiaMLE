@@ -1,5 +1,6 @@
 using Pkg
 Pkg.activate(pwd())
+Pkg.instantiate()
 
 using LinearAlgebra, Random, Distributions, StatsBase, SpecialFunctions
 
