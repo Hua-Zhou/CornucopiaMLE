@@ -106,14 +106,14 @@ function mle_yule_simon(x::Vector)
 end
 
 function mle_logarithmic(x::Vector)
-    (m, avg, iters) = (length(x), mean(x), 0)
-    q = 1.0
+    (avg, iters) = (mean(x), 0)
+    q = one(eltype(x))
     for iteration = 1:100
         iters = iters + 1
         eq = exp(q)
-        b = eq / ((1 + eq) * log(1 + eq))
-        f = -log(log(1 + eq)) + avg * (q - log(1 + eq))
-        df = -b + avg - avg * eq / (1 + eq)
+        b = eq / (1 + eq)
+        # f = -log(log(1 + eq)) + avg * (q - log(1 + eq))
+        df = - b / log(1 + eq) + avg - avg * b
         q = q + 4 * df / avg
         #     println(iteration," ",f," ",q," ",df)
         if abs(df) < 1e-6
@@ -206,13 +206,17 @@ function mle_dirichlet(x::Matrix)
 end
 
 function mle_negative_binomial(x::Vector)
+    T = eltype(x)
     (m, iters) = (length(x), 0)
-    (p, r) = (0.5, 1.0)
-    (old_p, old_r) = (0.5, 1.0)
-    avg = mean(x)
+    (avg, ssq) = (mean(x), var(x, corrected=false))
+    (p, r) = (avg / ssq, avg^2 / (ssq - avg)) # MOM estimates
+    if r <= 0
+        r = one(T)
+    end
+    (old_p, old_r) = (p, r)
     for iteration = 1:500
         iters = iters + 1
-        s = 0.0
+        s = zero(T)
         for i = 1:m
             for j = 0:(x[i]-1)
                 s = s + r / (r + j)
@@ -232,14 +236,14 @@ function mle_negative_binomial(x::Vector)
 end
 
 function mle_negative_binomial2(x::Vector)
+    T = eltype(x)
     (m, iters) = (length(x), 0)
-    (avg, ssq) = (mean(x), var(x))
+    (avg, ssq) = (mean(x), var(x, corrected=false))
     (p, r) = (avg / ssq, avg^2 / (ssq - avg)) # MOM estimates
-    if r <= 0.0
-        r = 1.0
+    if r <= 0
+        r = one(T)
     end
     (old_p, old_r) = (p, r)
-    avg = mean(x)
     for iteration = 1:500
         iters = iters + 1
         df = m * log(p)
@@ -398,12 +402,14 @@ println("Negative binomial & ", p, " ", r, " & ", iters)
 push!(est, [p, r])
 push!(its, iters)
 bm = @benchmark mle_negative_binomial($x)
+display(bm)
 push!(sec, median(bm.times) / 1e6)
 @time (p, r, iters) = mle_negative_binomial2(x)
 push!(est, [p, r])
 push!(its, iters)
 println("Negative binomial & ", p, " ", r, " & ", iters)
 bm = @benchmark mle_negative_binomial2($x)
+display(bm)
 push!(sec, median(bm.times) / 1e6)
 (p, r) = (avg/ssq, avg^2/(ssq-avg))
 
@@ -419,6 +425,7 @@ push!(est, [q])
 push!(its, iters)
 println("logarithmic & ", q, " & ", iters)
 bm = @benchmark mle_logarithmic($x)
+display(bm)
 push!(sec, median(bm.times) / 1e6)
 
 #
