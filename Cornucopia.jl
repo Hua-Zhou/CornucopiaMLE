@@ -13,9 +13,8 @@ function mle_Cauchy(x::Vector)
     for iteration = 1:100 # MM updates
         iters = iters + 1
         @. w = 1 / (1 + ((x - mu) / sigma)^2)
-        mu = dot(w, x) / sum(w) # MM update of mu
-        s = sum(w .* (x .- mu) .^ 2)
-        sigma = sqrt(2s / m) # MM update of sigma
+        mu, s = mean_and_var(x, weights(w), corrected = false)
+        sigma = sqrt(2s * sum(w) / m) # MM update of sigma
         #     f = loglikelihood(Cauchy(mu, sigma), x)
         #     println(iteration," ",f," ",mu," ",sigma)
         if abs(old_mu - mu) + abs(old_sigma - sigma) < 1.0e-6 # convergence
@@ -371,62 +370,62 @@ est = Vector{Float64}[]
 its = Int[]
 sec = Float64[]
 
-#
-# Yule-Simon distribution
-#
-push!(den, "Yule-Simon")
-(m, rho) = (1000, 3.0)
-push!(par, [rho])
-x = yule_simon_deviate(rho, m)
-(rho, iters) = mle_yule_simon(x)
-println("Yule-Simon & ", rho, " & ", iters)
-push!(est, [rho])
-bm = @benchmark mle_yule_simon($x)
-display(bm)
-push!(its, iters)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Yule-Simon distribution
+# #
+# push!(den, "Yule-Simon")
+# (m, rho) = (1000, 3.0)
+# push!(par, [rho])
+# x = yule_simon_deviate(rho, m)
+# (rho, iters) = mle_yule_simon(x)
+# println("Yule-Simon & ", rho, " & ", iters)
+# push!(est, [rho])
+# bm = @benchmark mle_yule_simon($x)
+# display(bm)
+# push!(its, iters)
+# push!(sec, median(bm.times) / 1e6)
 
-#
-# Negative binomial distribution
-#
-push!(den, "Negative binomial")
-push!(den, "Negative binomial")
-(m, p, r) = (1000, 0.25, 5.0);
-push!(par, [p, r])
-push!(par, [p, r])
-x = rand(NegativeBinomial(r, p), m);
-avg = mean(x);
-ssq = var(x);
-@time (p, r, iters) = mle_negative_binomial(x)
-println("Negative binomial & ", p, " ", r, " & ", iters)
-push!(est, [p, r])
-push!(its, iters)
-bm = @benchmark mle_negative_binomial($x)
-display(bm)
-push!(sec, median(bm.times) / 1e6)
-@time (p, r, iters) = mle_negative_binomial2(x)
-push!(est, [p, r])
-push!(its, iters)
-println("Negative binomial & ", p, " ", r, " & ", iters)
-bm = @benchmark mle_negative_binomial2($x)
-display(bm)
-push!(sec, median(bm.times) / 1e6)
-(p, r) = (avg/ssq, avg^2/(ssq-avg))
+# #
+# # Negative binomial distribution
+# #
+# push!(den, "Negative binomial")
+# push!(den, "Negative binomial")
+# (m, p, r) = (1000, 0.25, 5.0);
+# push!(par, [p, r])
+# push!(par, [p, r])
+# x = rand(NegativeBinomial(r, p), m);
+# avg = mean(x);
+# ssq = var(x);
+# @time (p, r, iters) = mle_negative_binomial(x)
+# println("Negative binomial & ", p, " ", r, " & ", iters)
+# push!(est, [p, r])
+# push!(its, iters)
+# bm = @benchmark mle_negative_binomial($x)
+# display(bm)
+# push!(sec, median(bm.times) / 1e6)
+# @time (p, r, iters) = mle_negative_binomial2(x)
+# push!(est, [p, r])
+# push!(its, iters)
+# println("Negative binomial & ", p, " ", r, " & ", iters)
+# bm = @benchmark mle_negative_binomial2($x)
+# display(bm)
+# push!(sec, median(bm.times) / 1e6)
+# (p, r) = (avg/ssq, avg^2/(ssq-avg))
 
-#
-# Logarithmic distribution
-#
-push!(den, "Logarithmic")
-(m, p, q) = (1000, 1, 0.4);
-push!(par, [q])
-x = logarithmic_deviate(q, m);
-@time (q, iters) = mle_logarithmic(x)
-push!(est, [q])
-push!(its, iters)
-println("logarithmic & ", q, " & ", iters)
-bm = @benchmark mle_logarithmic($x)
-display(bm)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Logarithmic distribution
+# #
+# push!(den, "Logarithmic")
+# (m, p, q) = (1000, 1, 0.4);
+# push!(par, [q])
+# x = logarithmic_deviate(q, m);
+# @time (q, iters) = mle_logarithmic(x)
+# push!(est, [q])
+# push!(its, iters)
+# println("logarithmic & ", q, " & ", iters)
+# bm = @benchmark mle_logarithmic($x)
+# display(bm)
+# push!(sec, median(bm.times) / 1e6)
 
 #
 # Cauchy distribution
@@ -441,106 +440,107 @@ push!(est, [mu, sigma])
 push!(its, iters)
 println("Cauchy & ", mu, "  ", sigma, " & ", iters)
 bm = @benchmark mle_Cauchy($x)
+display(bm)
 push!(sec, median(bm.times) / 1e6)
 
-#
-# Gumbel distribution
-#
-push!(den, "Gumbel")
-push!(den, "Gumbel")
-(m, p) = (1000, 2)
-(beta, mu) = (2.0, 0.5)
-push!(par, [beta, mu])
-push!(par, [beta, mu])
-x = rand(Gumbel(mu, beta), m);
-@time (beta, mu, iters) = mle_gumbel(x)
-push!(est, [beta, mu])
-push!(its, iters)
-println("Gumbel & ", beta, " ", mu, " & ", iters)
-bm = @benchmark mle_gumbel($x)
-push!(sec, median(bm.times) / 1e6)
-@time (beta, mu, iters) = mle_gumbel2(x)
-push!(est, [beta, mu])
-push!(its, iters)
-println("Gumbel & ", beta, " ", mu, " &  ", iters)
-bm = @benchmark mle_gumbel2($x)
-push!(sec, median(bm.times) / 1e6)
-# sqrt(6 * var(x) / pi^2)
+# #
+# # Gumbel distribution
+# #
+# push!(den, "Gumbel")
+# push!(den, "Gumbel")
+# (m, p) = (1000, 2)
+# (beta, mu) = (2.0, 0.5)
+# push!(par, [beta, mu])
+# push!(par, [beta, mu])
+# x = rand(Gumbel(mu, beta), m);
+# @time (beta, mu, iters) = mle_gumbel(x)
+# push!(est, [beta, mu])
+# push!(its, iters)
+# println("Gumbel & ", beta, " ", mu, " & ", iters)
+# bm = @benchmark mle_gumbel($x)
+# push!(sec, median(bm.times) / 1e6)
+# @time (beta, mu, iters) = mle_gumbel2(x)
+# push!(est, [beta, mu])
+# push!(its, iters)
+# println("Gumbel & ", beta, " ", mu, " &  ", iters)
+# bm = @benchmark mle_gumbel2($x)
+# push!(sec, median(bm.times) / 1e6)
+# # sqrt(6 * var(x) / pi^2)
 
-#
-# Weibull distribution
-#
-push!(den, "Weibull")
-(m, p) = (1000, 2);
-(kappa, lambda) = (2.0, 3.0);
-push!(par, [kappa, lambda])
-x = rand(Weibull(kappa, lambda), m);
-@time (kappa, lambda, iters) = mle_weibull(x)
-push!(est, [kappa, lambda])
-push!(its, iters)
-println("Weibull & ", kappa, " ", lambda, " & ", iters)
-bm = @benchmark mle_weibull($x)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Weibull distribution
+# #
+# push!(den, "Weibull")
+# (m, p) = (1000, 2);
+# (kappa, lambda) = (2.0, 3.0);
+# push!(par, [kappa, lambda])
+# x = rand(Weibull(kappa, lambda), m);
+# @time (kappa, lambda, iters) = mle_weibull(x)
+# push!(est, [kappa, lambda])
+# push!(its, iters)
+# println("Weibull & ", kappa, " ", lambda, " & ", iters)
+# bm = @benchmark mle_weibull($x)
+# push!(sec, median(bm.times) / 1e6)
 
-#
-# Rice distribution
-#
-push!(den, "Rice")
-(m, p) = (1000, 2)
-(nu, sigmasq) = (2.0, 3.0)
-push!(par, [nu, sigmasq])
-x = rand(Rician(nu, sqrt(sigmasq)), m);
-@time (nu, sigmasq, iters) = mle_rice(x)
-push!(est, [nu, sigmasq])
-push!(its, iters)
-println("Rice & ", nu, " ", sigmasq, " & ", iters)
-bm = @benchmark mle_rice($x)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Rice distribution
+# #
+# push!(den, "Rice")
+# (m, p) = (1000, 2)
+# (nu, sigmasq) = (2.0, 3.0)
+# push!(par, [nu, sigmasq])
+# x = rand(Rician(nu, sqrt(sigmasq)), m);
+# @time (nu, sigmasq, iters) = mle_rice(x)
+# push!(est, [nu, sigmasq])
+# push!(its, iters)
+# println("Rice & ", nu, " ", sigmasq, " & ", iters)
+# bm = @benchmark mle_rice($x)
+# push!(sec, median(bm.times) / 1e6)
 
-#
-# Dirichlet distribution
-#
-push!(den, "Dirichlet")
-(m, p) = (1000, 3);
-lambda = [1 / 3, 1 / 3, 1 / 3];
-push!(par, lambda)
-x = rand(Dirichlet(lambda), m);
-@time (lambda, iters) = mle_dirichlet(x)
-push!(est, lambda)
-push!(its, iters)
-println("Dirichlet & ", lambda, " & ", iters)
-bm = @benchmark mle_dirichlet($x)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Dirichlet distribution
+# #
+# push!(den, "Dirichlet")
+# (m, p) = (1000, 3);
+# lambda = [1 / 3, 1 / 3, 1 / 3];
+# push!(par, lambda)
+# x = rand(Dirichlet(lambda), m);
+# @time (lambda, iters) = mle_dirichlet(x)
+# push!(est, lambda)
+# push!(its, iters)
+# println("Dirichlet & ", lambda, " & ", iters)
+# bm = @benchmark mle_dirichlet($x)
+# push!(sec, median(bm.times) / 1e6)
 
-#
-# Inverse gamma distribution
-#
-push!(den, "Inverse gamma")
-(m, p) = (1000, 2)
-(alpha, beta) = (2.0, 3.0)
-push!(par, [alpha, beta])
-x = rand(InverseGamma(alpha, beta), m);
-@time (alpha, beta, iters) = mle_inverse_gamma(x)
-push!(est, [alpha, beta])
-push!(its, iters)
-println("Inverse gamma & ", alpha, " ", beta, " & ", iters)
-bm = @benchmark mle_inverse_gamma($x)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Inverse gamma distribution
+# #
+# push!(den, "Inverse gamma")
+# (m, p) = (1000, 2)
+# (alpha, beta) = (2.0, 3.0)
+# push!(par, [alpha, beta])
+# x = rand(InverseGamma(alpha, beta), m);
+# @time (alpha, beta, iters) = mle_inverse_gamma(x)
+# push!(est, [alpha, beta])
+# push!(its, iters)
+# println("Inverse gamma & ", alpha, " ", beta, " & ", iters)
+# bm = @benchmark mle_inverse_gamma($x)
+# push!(sec, median(bm.times) / 1e6)
 
-#
-# Gamma distribution
-#
-push!(den, "Gamma")
-(m, p) = (1000, 2)
-(alpha, beta) = (2.0, 3.0)
-push!(par, [alpha, beta])
-x = rand(Gamma(alpha, 1 / beta), m);
-@time (alpha, beta, iters) = mle_gamma(x)
-push!(est, [alpha, beta])
-push!(its, iters)
-println("Gamma & ", alpha, " ", beta, " & ", iters)
-bm = @benchmark mle_gamma($x)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Gamma distribution
+# #
+# push!(den, "Gamma")
+# (m, p) = (1000, 2)
+# (alpha, beta) = (2.0, 3.0)
+# push!(par, [alpha, beta])
+# x = rand(Gamma(alpha, 1 / beta), m);
+# @time (alpha, beta, iters) = mle_gamma(x)
+# push!(est, [alpha, beta])
+# push!(its, iters)
+# println("Gamma & ", alpha, " ", beta, " & ", iters)
+# bm = @benchmark mle_gamma($x)
+# push!(sec, median(bm.times) / 1e6)
 
 results = DataFrame(
     Density=den,
