@@ -83,15 +83,17 @@ function mle_gumbel2(x::Vector)
 end
 
 function mle_yule_simon(x::Vector)
+    T = eltype(x)
     (m, avg, iters) = (length(x), mean(x), 0)
-    rho = max(avg / (avg - 1), 1.0)
-    (f, df) = (0.0, 0.0)
+    rho = max(avg / (avg - 1), one(T))
+    (f, df) = (zero(T), zero(T))
+    s = m * digamma(rho + 1) # pre-compute digamma(rho + 1)
     for iteration = 1:100
         iters = iters + 1
         f = m * log(rho)
-        s = 0.0
+        s = zero(T)
         for i = 1:m
-            s = s - digamma(x[i] + rho + 1) + digamma(rho + 1)
+            s = s - digamma(x[i] + rho + 1)
             f = f + logbeta(x[i], rho + 1)
         end
         df = m / rho + s
@@ -372,10 +374,11 @@ push!(den, "Yule-Simon")
 (m, rho) = (1000, 3.0)
 push!(par, [rho])
 x = yule_simon_deviate(rho, m)
-@time (rho, iters) = mle_yule_simon(x)
+(rho, iters) = mle_yule_simon(x)
 println("Yule-Simon & ", rho, " & ", iters)
 push!(est, [rho])
 bm = @benchmark mle_yule_simon($x)
+display(bm)
 push!(its, iters)
 push!(sec, median(bm.times) / 1e6)
 
@@ -402,7 +405,7 @@ push!(its, iters)
 println("Negative binomial & ", p, " ", r, " & ", iters)
 bm = @benchmark mle_negative_binomial2($x)
 push!(sec, median(bm.times) / 1e6)
-# (p, r) = (avg/ssq, avg^2/(ssq-avg))
+(p, r) = (avg/ssq, avg^2/(ssq-avg))
 
 #
 # Logarithmic distribution
