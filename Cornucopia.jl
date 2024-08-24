@@ -2,7 +2,7 @@ using Pkg
 Pkg.activate(pwd())
 Pkg.instantiate()
 
-using BenchmarkTools, DataFrames, Distributions, PrettyTables, StatsBase, SpecialFunctions
+using BenchmarkTools, Bessels, DataFrames, Distributions, PrettyTables, StatsBase, SpecialFunctions
 using LinearAlgebra, Random
 
 function mle_Cauchy(x::Vector)
@@ -169,19 +169,22 @@ function mle_weibull(x::Vector)
     return (kappa, lambda, iters)
 end
 
-function mle_rice(x::Vector{Float64})
+function mle_rice(x::Vector)
+    T = eltype(x)
     (m, iters) = (length(x), 0)
-    sumsq = mean(x .^ 2)
-    w = similar(x)
-    (nu, old_nu) = (1.0, 1.0)
-    (sigmasq, old_sigmasq) = (1.0, 1.0)
+    meansq = mean(abs2, x)
+    (nu, old_nu) = (one(T), one(T))
+    (sigmasq, old_sigmasq) = (one(T), one(T))
     for iteration = 1:500
         iters = iters + 1
         c = nu / sigmasq
-        @. w = besseli(1.0, c * x) / besseli(0.0, c * x)
-        c = dot(w, x)
-        nu = c / m
-        sigmasq = (sumsq + nu^2) / 2 - nu * c / m
+        nu = zero(T)
+        for i = 1:m
+            wi = Bessels.besseli(one(T), c * x[i]) / Bessels.besseli(zero(T), c * x[i]) # besseli has allocation?
+            nu = nu + wi * x[i]
+        end
+        nu = nu / m
+        sigmasq = (meansq - nu^2) / 2
         #     f = loglikelihood(Rician(nu, sqrt(sigmasq)), x)
         #     println(iteration," ",f)
         if abs(nu - old_nu) + abs(sigmasq - old_sigmasq) < 1e-6
@@ -194,9 +197,10 @@ function mle_rice(x::Vector{Float64})
 end
 
 function mle_dirichlet(x::Matrix)
+    T = eltype(x)
     (m, p) = size(x)
-    (avglog, iters) = (mean(log.(x), dims=2), 0)
-    (lambda, df) = (ones(m), zeros(m))
+    (avglog, iters) = (mean(log, x, dims=2), 0)
+    (lambda, df) = (ones(T, m), zeros(T, m))
     for iteration = 1:100
         iters = iters + 1
         c = digamma(sum(lambda))
@@ -276,10 +280,11 @@ function mle_negative_binomial2(x::Vector)
 end
 
 function mle_inverse_gamma(x::Vector)
+    T = eltype(x)
     (m, iters) = (length(x), 0)
-    (avglog, avginverse) = (mean(log.(x)), mean(1 ./ x))
-    (alpha, old_alpha) = (mean(x)^2 / var(x) + 2, 1.0)
-    (beta, old_beta) = (1.0, 1.0)
+    (avglog, avginverse) = (mean(log, x), mean(inv, x))
+    (alpha, old_alpha) = (mean(x)^2 / var(x, corrected = false) + 2, one(T))
+    (beta, old_beta) = (one(T), one(T))
     for iteration = 1:100
         iters = iters + 1
         beta = alpha / avginverse
@@ -296,10 +301,11 @@ function mle_inverse_gamma(x::Vector)
 end
 
 function mle_gamma(x::Vector)
-    (avg, avglog, iters) = (mean(x), mean(log.(x)), 0)
+    T = eltype(x)
+    (avg, avglog, iters) = (mean(x), mean(log, x), 0)
     d = log(avg) - avglog
     alpha = (3 - d + sqrt((3 - d)^2 + 24d)) / (12d)
-    (old_alpha, beta, old_beta) = (0.0, 0.0, 0.0)
+    (old_alpha, beta, old_beta) = (zero(T), zero(T), zero(T))
     for iteration = 1:100
         iters = iters + 1
         beta = alpha / avg
@@ -478,36 +484,37 @@ sec = Float64[]
 # push!(sec, median(bm.times) / 1e6)
 # sqrt(6 * var(x) / pi^2)
 
+# #
+# # Weibull distribution
+# #
+# push!(den, "Weibull")
+# (m, p) = (1000, 2);
+# (kappa, lambda) = (2.0, 3.0);
+# push!(par, [kappa, lambda])
+# x = rand(Weibull(kappa, lambda), m);
+# @time (kappa, lambda, iters) = mle_weibull(x)
+# push!(est, [kappa, lambda])
+# push!(its, iters)
+# println("Weibull & ", kappa, " ", lambda, " & ", iters)
+# bm = @benchmark mle_weibull($x)
+# display(bm)
+# push!(sec, median(bm.times) / 1e6)
+
 #
-# Weibull distribution
+# Rice distribution
 #
-push!(den, "Weibull")
-(m, p) = (1000, 2);
-(kappa, lambda) = (2.0, 3.0);
-push!(par, [kappa, lambda])
-x = rand(Weibull(kappa, lambda), m);
-@time (kappa, lambda, iters) = mle_weibull(x)
-push!(est, [kappa, lambda])
+push!(den, "Rice")
+(m, p) = (1000, 2)
+(nu, sigmasq) = (2.0, 3.0)
+push!(par, [nu, sigmasq])
+x = rand(Rician(nu, sqrt(sigmasq)), m)
+@time (nu, sigmasq, iters) = mle_rice(x)
+push!(est, [nu, sigmasq])
 push!(its, iters)
-println("Weibull & ", kappa, " ", lambda, " & ", iters)
-bm = @benchmark mle_weibull($x)
+println("Rice & ", nu, " ", sigmasq, " & ", iters)
+bm = @benchmark mle_rice($x)
 display(bm)
 push!(sec, median(bm.times) / 1e6)
-
-# #
-# # Rice distribution
-# #
-# push!(den, "Rice")
-# (m, p) = (1000, 2)
-# (nu, sigmasq) = (2.0, 3.0)
-# push!(par, [nu, sigmasq])
-# x = rand(Rician(nu, sqrt(sigmasq)), m);
-# @time (nu, sigmasq, iters) = mle_rice(x)
-# push!(est, [nu, sigmasq])
-# push!(its, iters)
-# println("Rice & ", nu, " ", sigmasq, " & ", iters)
-# bm = @benchmark mle_rice($x)
-# push!(sec, median(bm.times) / 1e6)
 
 # #
 # # Dirichlet distribution
@@ -522,6 +529,7 @@ push!(sec, median(bm.times) / 1e6)
 # push!(its, iters)
 # println("Dirichlet & ", lambda, " & ", iters)
 # bm = @benchmark mle_dirichlet($x)
+# display(bm)
 # push!(sec, median(bm.times) / 1e6)
 
 # #
@@ -537,6 +545,7 @@ push!(sec, median(bm.times) / 1e6)
 # push!(its, iters)
 # println("Inverse gamma & ", alpha, " ", beta, " & ", iters)
 # bm = @benchmark mle_inverse_gamma($x)
+# display(bm)
 # push!(sec, median(bm.times) / 1e6)
 
 # #
@@ -552,6 +561,7 @@ push!(sec, median(bm.times) / 1e6)
 # push!(its, iters)
 # println("Gamma & ", alpha, " ", beta, " & ", iters)
 # bm = @benchmark mle_gamma($x)
+# display(bm)
 # push!(sec, median(bm.times) / 1e6)
 
 results = DataFrame(
