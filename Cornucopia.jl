@@ -141,14 +141,18 @@ end
 # end
 
 function mle_weibull(x::Vector)
-    (kappa, old_kappa, lambda) = (1.0, 1.0, 1.0)
-    (avg, avglog, iters) = (mean(x), mean(log.(x)), 0)
+    T = eltype(x)
+    (m, kappa, old_kappa) = (length(x), one(T), one(T))
+    (avglog, iters) = (mean(log, x), 0)
     for iteration = 1:100
         iters = iters + 1
-        a = sum(x .^ kappa .* log.(x))
-        b = sum(x .^ kappa)
+        a, b = zero(T), zero(T)
+        for i = 1:m
+            c = x[i]^kappa
+            b = b + c
+            a = a + c * log(x[i])
+        end
         kappa = 1 / (a / b - avglog)
-        lambda = mean(x .^ kappa)^(1 / kappa)
         #     f = loglikelihood(Weibull(kappa, lambda), x)
         #     println(iteration," ",f)
         if abs(kappa - old_kappa) < 1e-6
@@ -157,6 +161,11 @@ function mle_weibull(x::Vector)
             old_kappa = kappa
         end
     end
+    lambda = zero(T)
+    for i in 1:m
+        lambda = lambda + x[i]^kappa
+    end
+    lambda = (lambda / m)^(1 / kappa)
     return (kappa, lambda, iters)
 end
 
@@ -427,21 +436,21 @@ sec = Float64[]
 # display(bm)
 # push!(sec, median(bm.times) / 1e6)
 
-#
-# Cauchy distribution
-#
-push!(den, "Cauchy")
-(m, p) = (1000, 2);
-(mu, sigma) = (1.0, 1.0)
-push!(par, [mu, sigma])
-x = rand(Cauchy(mu, sigma), m);
-@time (mu, sigma, iters) = mle_Cauchy(x)
-push!(est, [mu, sigma])
-push!(its, iters)
-println("Cauchy & ", mu, "  ", sigma, " & ", iters)
-bm = @benchmark mle_Cauchy($x)
-display(bm)
-push!(sec, median(bm.times) / 1e6)
+# #
+# # Cauchy distribution
+# #
+# push!(den, "Cauchy")
+# (m, p) = (1000, 2);
+# (mu, sigma) = (1.0, 1.0)
+# push!(par, [mu, sigma])
+# x = rand(Cauchy(mu, sigma), m);
+# @time (mu, sigma, iters) = mle_Cauchy(x)
+# push!(est, [mu, sigma])
+# push!(its, iters)
+# println("Cauchy & ", mu, "  ", sigma, " & ", iters)
+# bm = @benchmark mle_Cauchy($x)
+# display(bm)
+# push!(sec, median(bm.times) / 1e6)
 
 # #
 # # Gumbel distribution
@@ -458,29 +467,32 @@ push!(sec, median(bm.times) / 1e6)
 # push!(its, iters)
 # println("Gumbel & ", beta, " ", mu, " & ", iters)
 # bm = @benchmark mle_gumbel($x)
+# display(bm)
 # push!(sec, median(bm.times) / 1e6)
 # @time (beta, mu, iters) = mle_gumbel2(x)
 # push!(est, [beta, mu])
 # push!(its, iters)
 # println("Gumbel & ", beta, " ", mu, " &  ", iters)
 # bm = @benchmark mle_gumbel2($x)
+# display(bm)
 # push!(sec, median(bm.times) / 1e6)
-# # sqrt(6 * var(x) / pi^2)
+# sqrt(6 * var(x) / pi^2)
 
-# #
-# # Weibull distribution
-# #
-# push!(den, "Weibull")
-# (m, p) = (1000, 2);
-# (kappa, lambda) = (2.0, 3.0);
-# push!(par, [kappa, lambda])
-# x = rand(Weibull(kappa, lambda), m);
-# @time (kappa, lambda, iters) = mle_weibull(x)
-# push!(est, [kappa, lambda])
-# push!(its, iters)
-# println("Weibull & ", kappa, " ", lambda, " & ", iters)
-# bm = @benchmark mle_weibull($x)
-# push!(sec, median(bm.times) / 1e6)
+#
+# Weibull distribution
+#
+push!(den, "Weibull")
+(m, p) = (1000, 2);
+(kappa, lambda) = (2.0, 3.0);
+push!(par, [kappa, lambda])
+x = rand(Weibull(kappa, lambda), m);
+@time (kappa, lambda, iters) = mle_weibull(x)
+push!(est, [kappa, lambda])
+push!(its, iters)
+println("Weibull & ", kappa, " ", lambda, " & ", iters)
+bm = @benchmark mle_weibull($x)
+display(bm)
+push!(sec, median(bm.times) / 1e6)
 
 # #
 # # Rice distribution
