@@ -154,15 +154,18 @@ function mle_weibull(x::Vector)
     T = eltype(x)
     (m, kappa, old_kappa) = (length(x), one(T), one(T))
     (avglog, iters) = (mean(log, x), 0)
-    for iteration = 1:100
+    v = (maximum(log, x) - minimum(log, x))^2 / 4
+    for iteration = 1:500
         iters = iters + 1
-        a, b = zero(T), zero(T)
+        (a, d) = (zero(T), zero(T))
         for i = 1:m
             c = x[i]^kappa
-            b = b + c
+            d = d + c
             a = a + c * log(x[i])
         end
-        kappa = 1 / (a / b - avglog)
+        b = - m * a / d + m * v * kappa + m * avglog
+        kappa = (b + sqrt(b^2 + 4m^2 * v)) / (2m * v)
+        #     lambda = (d / m)^(1 / kappa)
         #     f = loglikelihood(Weibull(kappa, lambda), x)
         #     println(iteration," ",f)
         if abs(kappa - old_kappa) < 1e-6
@@ -176,7 +179,7 @@ function mle_weibull(x::Vector)
         lambda = lambda + x[i]^kappa
     end
     lambda = (lambda / m)^(1 / kappa)
-    return (kappa, lambda, iters)
+    return (kappa, lambda, iters)  
 end
 
 function mle_rice(x::Vector)
@@ -334,6 +337,30 @@ function mle_gamma(x::Vector)
     end
     return (alpha, beta, iters)
 end
+
+function mle_gamma1(x::Vector)
+    T = eltype(x)
+    (avg, avglog, iters) = (mean(x), mean(log, x), 0)
+    logavg = log(avg)
+    d = logavg - avglog
+    alpha = (3 - d + sqrt((3 - d)^2 + 24d)) / (12d)
+    (old_alpha, beta, old_beta) = (zero(T), zero(T), zero(T))
+    for iteration = 1:100
+      iters = iters + 1
+      b = log(alpha) - d - digamma(alpha) - 1 / alpha + (pi^2 / 6) * alpha
+      alpha = (b + sqrt(b^2 + 2pi^2 / 3)) / (pi^2 / 3)
+  #     beta = alpha / avg
+  #     f = loglikelihood(Gamma(alpha, 1 / beta), x)
+  #     println(iteration," ",f," ",alpha)
+      if abs(alpha - old_alpha) + abs(beta - old_beta) < 1e-6
+        break
+      else
+        (old_alpha, old_beta) = (alpha, beta)
+      end
+    end
+    beta = alpha / avg
+    return (alpha, beta, iters)
+  end  
 
 function logarithmic_deviate(p, n)
     x = zeros(Int, n)
@@ -566,15 +593,26 @@ push!(sec, median(bm.times) / 1e6)
 # Gamma distribution
 #
 push!(den, "Gamma")
+push!(den, "Gamma")
 (m, p) = (1000, 2)
 (alpha, beta) = (2.0, 3.0)
 push!(par, [alpha, beta])
+push!(par, [alpha, beta])
 x = rand(Gamma(alpha, 1 / beta), m);
+# method 1 based on Stirling's approximation
 @time (alpha, beta, iters) = mle_gamma(x)
 push!(est, [alpha, beta])
 push!(its, iters)
 println("Gamma & ", alpha, " ", beta, " & ", iters)
 bm = @benchmark mle_gamma($x)
+display(bm)
+push!(sec, median(bm.times) / 1e6)
+# method 1 based on QLB MM algorithm
+@time (alpha, beta, iters) = mle_gamma1(x)
+push!(est, [alpha, beta])
+push!(its, iters)
+println("Gamma & ", alpha, " ", beta, " & ", iters)
+bm = @benchmark mle_gamma1($x)
 display(bm)
 push!(sec, median(bm.times) / 1e6)
 
@@ -589,7 +627,16 @@ results = DataFrame(
 pretty_table(
     results,
     header=["Density", "Parameters", "Estimate", "Iterations", "Time (ms)"],
+    formatters=(v, i, j) -> (j == 2 || j == 3) ? round.(v, digits=3) : (j == 5 ? round(v, digits=3) : v)
+)
+
+# LaTeX table for the paper
+pretty_table(
+    results,
+    header=["Density", "Parameters", "Estimate", "Iterations", "Time (ms)"],
     formatters=(v, i, j) -> (j == 2 || j == 3) ? round.(v, digits=3) : (j == 5 ? round(v, digits=3) : v),
-    # backend = Val(:latex),
-    # vlines = :all
+    backend = Val(:latex),
+    vlines = :all,
+    alignment = :c, 
+    compact_printing = false
 )
