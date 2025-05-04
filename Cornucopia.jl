@@ -51,7 +51,7 @@ function mle_gumbel(x::Vector)
         end
         f = f - m * log(s1)
         df = df + m * s2 / s1
-        d2f = -m / alpha^2 - m * s3 / s1 + df^2
+        d2f = -m / alpha^2 - m * s3 / s1 + m*(s2/s1)^2
         alpha = alpha - df / d2f # Newton update
         #     println(iteration," ",f," ",alpha," ",df)
         if abs(df) < 1e-6
