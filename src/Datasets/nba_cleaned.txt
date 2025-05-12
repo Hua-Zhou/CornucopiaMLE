@@ -1,0 +1,1190 @@
+"team1_name","team1_score","team2_name","team2_score","location","nOT","game_length"
+"San Antonio Spurs",87,"Los Angeles Lakers",82,"Los Angeles",0,48
+"Orlando Magic",95,"Philadelphia 76ers",88,"Orlando",0,48
+"Sacramento Kings",94,"Cleveland Cavaliers",67,"Sacramento",0,48
+"Chicago Bulls",99,"Boston Celtics",96,"Boston",0,48
+"Detroit Pistons",86,"New York Knicks",77,"Detroit",0,48
+"Golden State Warriors",106,"San Antonio Spurs",98,"Golden State",0,48
+"Indiana Pacers",91,"Houston Rockets",82,"Indiana",0,48
+"Cleveland Cavaliers",98,"Los Angeles Clippers",96,"Los Angeles",0,48
+"Dallas Mavericks",119,"Memphis Grizzlies",108,"Memphis",0,48
+"Orlando Magic",100,"Miami Heat",86,"Miami",0,48
+"Minnesota Timberwolves",83,"Denver Nuggets",77,"Minnesota",0,48
+"New Jersey Nets",105,"Atlanta Hawks",94,"New Jersey",0,48
+"New Orleans Hornets",100,"Utah Jazz",75,"New Orleans",0,48
+"Philadelphia 76ers",95,"Milwaukee Bucks",93,"Philadelphia",0,48
+"Portland Trail Blazers",102,"Los Angeles Lakers",90,"Portland",0,48
+"Seattle Supersonics",86,"Phoenix Suns",73,"Seattle",0,48
+"Toronto Raptors",74,"Washington Wizards",68,"Toronto",0,48
+"Atlanta Hawks",105,"Utah Jazz",98,"Atlanta",0,48
+"Sacramento Kings",100,"Portland Trail Blazers",72,"Sacramento",0,48
+"Washington Wizards",114,"Boston Celtics",69,"Washington",0,48
+"Chicago Bulls",84,"New Orleans Hornets",79,"Chicago",0,48
+"Houston Rockets",83,"Denver Nuggets",74,"Denver",0,48
+"Detroit Pistons",109,"Memphis Grizzlies",86,"Detroit",0,48
+"Seattle Supersonics",106,"Golden State Warriors",93,"Golden State",0,48
+"Los Angeles Lakers",108,"Los Angeles Clippers",93,"Los Angeles",0,48
+"Minnesota Timberwolves",111,"Orlando Magic",105,"Minnesota",0,48
+"New Jersey Nets",102,"Indiana Pacers",91,"New Jersey",0,48
+"Philadelphia 76ers",98,"New York Knicks",86,"Philadelphia",0,48
+"Phoenix Suns",78,"Cleveland Cavaliers",74,"Phoenix",0,48
+"San Antonio Spurs",91,"Toronto Raptors",72,"San Antonio",0,48
+"Atlanta Hawks",98,"Chicago Bulls",92,"Atlanta",0,48
+"Dallas Mavericks",97,"Phoenix Suns",83,"Dallas",0,48
+"Houston Rockets",88,"Toronto Raptors",76,"Houston",0,48
+"Indiana Pacers",87,"Minnesota Timberwolves",80,"Indiana",0,48
+"Sacramento Kings",116,"Memphis Grizzlies",99,"Memphis",0,48
+"Orlando Magic",100,"Milwaukee Bucks",90,"Milwaukee",0,48
+"New Orleans Hornets",100,"Miami Heat",95,"New Orleans",0,48
+"Boston Celtics",117,"New York Knicks",107,"New York",0,48
+"Denver Nuggets",96,"Portland Trail Blazers",79,"Portland",0,48
+"Utah Jazz",101,"Golden State Warriors",92,"Utah",0,48
+"New Jersey Nets",87,"Washington Wizards",79,"Washington",0,48
+"Los Angeles Clippers",74,"Detroit Pistons",72,"Los Angeles",0,48
+"Los Angeles Lakers",98,"Portland Trail Blazers",95,"Los Angeles",1,53
+"Miami Heat",88,"Sacramento Kings",78,"Miami",0,48
+"Seattle Supersonics",91,"Utah Jazz",77,"Seattle",0,48
+"Dallas Mavericks",107,"Golden State Warriors",100,"Dallas",0,48
+"San Antonio Spurs",103,"Memphis Grizzlies",101,"Memphis",1,53
+"New Jersey Nets",106,"Minnesota Timberwolves",82,"New Jersey",0,48
+"Milwaukee Bucks",97,"New York Knicks",88,"New York",0,48
+"Detroit Pistons",84,"Phoenix Suns",82,"Phoenix",0,48
+"Toronto Raptors",109,"Chicago Bulls",105,"Toronto",1,53
+"Cleveland Cavaliers",89,"Los Angeles Lakers",70,"Cleveland",0,48
+"Atlanta Hawks",103,"Denver Nuggets",87,"Denver",0,48
+"Seattle Supersonics",104,"Houston Rockets",97,"Houston",0,48
+"Indiana Pacers",83,"Miami Heat",79,"Miami",0,48
+"Minnesota Timberwolves",90,"Washington Wizards",86,"Minnesota",0,48
+"Orlando Magic",125,"Sacramento Kings",121,"Orlando",0,48
+"San Antonio Spurs",93,"Golden State Warriors",73,"San Antonio",0,48
+"Boston Celtics",91,"Chicago Bulls",69,"Chicago",0,48
+"Milwaukee Bucks",99,"New Jersey Nets",93,"Milwaukee",0,48
+"New Orleans Hornets",86,"Seattle Supersonics",84,"New Orleans",0,48
+"New York Knicks",95,"Sacramento Kings",88,"New York",0,48
+"Philadelphia 76ers",101,"Los Angeles Clippers",99,"Philadelphia",1,53
+"Phoenix Suns",93,"Atlanta Hawks",88,"Phoenix",0,48
+"Portland Trail Blazers",94,"Memphis Grizzlies",88,"Portland",0,48
+"Dallas Mavericks",106,"Toronto Raptors",92,"Toronto",0,48
+"Detroit Pistons",80,"Utah Jazz",78,"Utah",0,48
+"Washington Wizards",107,"Cleveland Cavaliers",100,"Washington",0,48
+"Boston Celtics",98,"Los Angeles Lakers",95,"Boston",1,53
+"Detroit Pistons",89,"Denver Nuggets",63,"Denver",0,48
+"Minnesota Timberwolves",114,"Milwaukee Bucks",110,"Minnesota",0,48
+"Dallas Mavericks",114,"Chicago Bulls",87,"Chicago",0,48
+"Indiana Pacers",107,"New York Knicks",94,"Indiana",0,48
+"New Jersey Nets",106,"Los Angeles Clippers",92,"New Jersey",0,48
+"New Orleans Hornets",110,"Golden State Warriors",104,"New Orleans",0,48
+"Orlando Magic",105,"Seattle Supersonics",98,"Orlando",0,48
+"Philadelphia 76ers",108,"Cleveland Cavaliers",84,"Philadelphia",0,48
+"Phoenix Suns",86,"Portland Trail Blazers",75,"Phoenix",0,48
+"Sacramento Kings",99,"Memphis Grizzlies",91,"Sacramento",0,48
+"Utah Jazz",110,"Atlanta Hawks",97,"Utah",0,48
+"Washington Wizards",100,"Los Angeles Lakers",99,"Washington",0,48
+"Chicago Bulls",100,"New Jersey Nets",93,"Chicago",0,48
+"Washington Wizards",93,"Cleveland Cavaliers",79,"Cleveland",0,48
+"Dallas Mavericks",114,"Detroit Pistons",75,"Dallas",0,48
+"Denver Nuggets",84,"Memphis Grizzlies",73,"Denver",0,48
+"Houston Rockets",111,"Golden State Warriors",104,"Houston",0,48
+"Indiana Pacers",108,"Toronto Raptors",84,"Indiana",0,48
+"Seattle Supersonics",84,"Miami Heat",82,"Miami",0,48
+"Milwaukee Bucks",110,"Philadelphia 76ers",105,"Milwaukee",1,53
+"Boston Celtics",105,"Minnesota Timberwolves",99,"Minnesota",0,48
+"Portland Trail Blazers",95,"San Antonio Spurs",76,"San Antonio",0,48
+"New Orleans Hornets",97,"New York Knicks",91,"New York",1,53
+"Los Angeles Clippers",120,"Orlando Magic",117,"Orlando",0,48
+"Sacramento Kings",105,"Atlanta Hawks",97,"Sacramento",0,48
+"Boston Celtics",112,"Utah Jazz",95,"Boston",0,48
+"Dallas Mavericks",82,"Portland Trail Blazers",73,"Dallas",0,48
+"Golden State Warriors",108,"Memphis Grizzlies",101,"Memphis",0,48
+"San Antonio Spurs",91,"Minnesota Timberwolves",75,"San Antonio",0,48
+"Detroit Pistons",93,"New Orleans Hornets",87,"Detroit",0,48
+"Houston Rockets",86,"Portland Trail Blazers",83,"Houston",0,48
+"Indiana Pacers",95,"Cleveland Cavaliers",75,"Indiana",0,48
+"Atlanta Hawks",95,"Los Angeles Lakers",83,"Los Angeles",0,48
+"Los Angeles Clippers",101,"Miami Heat",82,"Miami",0,48
+"Utah Jazz",108,"New York Knicks",87,"New York",0,48
+"Toronto Raptors",115,"Orlando Magic",109,"Orlando",0,48
+"Seattle Supersonics",101,"Washington Wizards",95,"Washington",0,48
+"Boston Celtics",91,"Philadelphia 76ers",81,"Boston",0,48
+"Dallas Mavericks",103,"Cleveland Cavaliers",99,"Cleveland",0,48
+"Phoenix Suns",75,"Denver Nuggets",72,"Denver",0,48
+"Sacramento Kings",104,"Golden State Warriors",93,"Golden State",0,48
+"Milwaukee Bucks",108,"Chicago Bulls",101,"Milwaukee",0,48
+"New Jersey Nets",91,"San Antonio Spurs",82,"New Jersey",0,48
+"New Orleans Hornets",102,"Minnesota Timberwolves",98,"New Orleans",0,48
+"Orlando Magic",101,"Los Angeles Clippers",80,"Los Angeles",0,48
+"Philadelphia 76ers",99,"San Antonio Spurs",94,"Philadelphia",0,48
+"Washington Wizards",105,"Utah Jazz",102,"Washington",0,48
+"Dallas Mavericks",97,"Boston Celtics",86,"Boston",0,48
+"Detroit Pistons",86,"Utah Jazz",75,"Detroit",0,48
+"Indiana Pacers",103,"Milwaukee Bucks",100,"Indiana",1,53
+"Los Angeles Lakers",96,"Golden State Warriors",89,"Los Angeles",1,53
+"Minnesota Timberwolves",99,"Memphis Grizzlies",95,"Memphis",0,48
+"New Jersey Nets",93,"Miami Heat",84,"Miami",0,48
+"New Orleans Hornets",105,"Chicago Bulls",87,"New Orleans",0,48
+"Phoenix Suns",88,"Houston Rockets",87,"Phoenix",0,48
+"Portland Trail Blazers",112,"Los Angeles Clippers",88,"Portland",0,48
+"Seattle Supersonics",111,"Sacramento Kings",97,"Seattle",0,48
+"Toronto Raptors",84,"Denver Nuggets",79,"Toronto",0,48
+"Atlanta Hawks",89,"New Orleans Hornets",82,"Atlanta",0,48
+"Chicago Bulls",111,"Memphis Grizzlies",93,"Chicago",0,48
+"San Antonio Spurs",90,"Cleveland Cavaliers",77,"Cleveland",0,48
+"Detroit Pistons",74,"Denver Nuggets",53,"Detroit",0,48
+"Golden State Warriors",135,"Orlando Magic",92,"Golden State",0,48
+"Milwaukee Bucks",104,"Boston Celtics",85,"Milwaukee",0,48
+"Indiana Pacers",107,"Minnesota Timberwolves",101,"Minnesota",0,48
+"Dallas Mavericks",96,"New Jersey Nets",88,"New Jersey",0,48
+"Philadelphia 76ers",93,"New York Knicks",92,"New York",0,48
+"Washington Wizards",95,"Miami Heat",65,"Washington",0,48
+"Seattle Supersonics",84,"Los Angeles Clippers",78,"Los Angeles",0,48
+"Houston Rockets",93,"Los Angeles Lakers",89,"Los Angeles",0,48
+"Philadelphia 76ers",100,"Washington Wizards",84,"Philadelphia",0,48
+"Sacramento Kings",101,"Orlando Magic",99,"Sacramento",0,48
+"Utah Jazz",82,"Toronto Raptors",78,"Toronto",0,48
+"Atlanta Hawks",117,"Toronto Raptors",92,"Atlanta",0,48
+"Los Angeles Clippers",99,"Golden State Warriors",89,"Golden State",0,48
+"New Jersey Nets",99,"Denver Nuggets",79,"New Jersey",0,48
+"New York Knicks",94,"Detroit Pistons",91,"New York",0,48
+"San Antonio Spurs",104,"Cleveland Cavaliers",78,"San Antonio",0,48
+"Dallas Mavericks",98,"Los Angeles Lakers",72,"Dallas",0,48
+"Houston Rockets",97,"Cleveland Cavaliers",80,"Houston",0,48
+"Miami Heat",97,"Milwaukee Bucks",93,"Milwaukee",0,48
+"Minnesota Timberwolves",110,"Memphis Grizzlies",106,"Minnesota",1,53
+"New Orleans Hornets",99,"Philadelphia 76ers",98,"New Orleans",0,48
+"Sacramento Kings",111,"Chicago Bulls",98,"Sacramento",0,48
+"Orlando Magic",101,"Seattle Supersonics",84,"Seattle",0,48
+"Utah Jazz",99,"Phoenix Suns",76,"Utah",0,48
+"Minnesota Timberwolves",103,"Atlanta Hawks",93,"Atlanta",0,48
+"Boston Celtics",96,"New Jersey Nets",79,"Boston",0,48
+"Utah Jazz",96,"Denver Nuggets",79,"Denver",0,48
+"Detroit Pistons",79,"Miami Heat",68,"Detroit",0,48
+"Golden State Warriors",100,"Chicago Bulls",94,"Golden State",0,48
+"Sacramento Kings",93,"Los Angeles Clippers",89,"Los Angeles",0,48
+"Philadelphia 76ers",95,"Memphis Grizzlies",88,"Memphis",0,48
+"Portland Trail Blazers",98,"Orlando Magic",84,"Portland",0,48
+"San Antonio Spurs",95,"Los Angeles Lakers",88,"San Antonio",0,48
+"Indiana Pacers",97,"Toronto Raptors",95,"Toronto",0,48
+"Dallas Mavericks",103,"Houston Rockets",90,"Dallas",0,48
+"Portland Trail Blazers",89,"Seattle Supersonics",85,"Seattle",0,48
+"Boston Celtics",105,"Atlanta Hawks",98,"Boston",2,58
+"Denver Nuggets",72,"Los Angeles Clippers",70,"Denver",0,48
+"Milwaukee Bucks",95,"Golden State Warriors",91,"Golden State",0,48
+"Houston Rockets",93,"Washington Wizards",86,"Houston",0,48
+"Indiana Pacers",106,"Orlando Magic",70,"Indiana",0,48
+"Los Angeles Lakers",86,"Chicago Bulls",73,"Los Angeles",0,48
+"Detroit Pistons",75,"Miami Heat",72,"Miami",0,48
+"New Jersey Nets",120,"Cleveland Cavaliers",79,"New Jersey",0,48
+"New Orleans Hornets",105,"New York Knicks",97,"New Orleans",1,53
+"Philadelphia 76ers",90,"Toronto Raptors",80,"Philadelphia",0,48
+"Sacramento Kings",118,"Phoenix Suns",101,"Sacramento",0,48
+"San Antonio Spurs",95,"Memphis Grizzlies",86,"San Antonio",0,48
+"Boston Celtics",109,"Atlanta Hawks",99,"Atlanta",0,48
+"New Orleans Hornets",97,"Cleveland Cavaliers",84,"Cleveland",0,48
+"Dallas Mavericks",115,"Seattle Supersonics",105,"Dallas",0,48
+"Detroit Pistons",106,"Indiana Pacers",91,"Indiana",0,48
+"Memphis Grizzlies",85,"Washington Wizards",74,"Memphis",0,48
+"New Jersey Nets",96,"Minnesota Timberwolves",82,"Minnesota",0,48
+"Denver Nuggets",80,"Phoenix Suns",79,"Phoenix",0,48
+"Sacramento Kings",95,"Portland Trail Blazers",94,"Portland",0,48
+"Utah Jazz",110,"Chicago Bulls",90,"Utah",0,48
+"Los Angeles Clippers",90,"Houston Rockets",89,"Los Angeles",0,48
+"Los Angeles Lakers",111,"Milwaukee Bucks",99,"Los Angeles",0,48
+"Minnesota Timberwolves",106,"New York Knicks",88,"New York",0,48
+"Orlando Magic",77,"Miami Heat",75,"Orlando",0,48
+"Seattle Supersonics",91,"San Antonio Spurs",90,"San Antonio",0,48
+"Philadelphia 76ers",94,"Toronto Raptors",84,"Toronto",0,48
+"Philadelphia 76ers",108,"New Orleans Hornets",87,"Philadelphia",0,48
+"Phoenix Suns",86,"Milwaukee Bucks",81,"Phoenix",0,48
+"Atlanta Hawks",119,"Seattle Supersonics",116,"Atlanta",1,53
+"Sacramento Kings",91,"Cleveland Cavaliers",85,"Cleveland",0,48
+"Denver Nuggets",85,"San Antonio Spurs",81,"Denver",0,48
+"Utah Jazz",99,"Los Angeles Clippers",94,"Los Angeles",0,48
+"Miami Heat",97,"Los Angeles Lakers",85,"Miami",0,48
+"Portland Trail Blazers",77,"Houston Rockets",71,"Portland",0,48
+"Indiana Pacers",88,"Washington Wizards",84,"Washington",0,48
+"Boston Celtics",92,"Chicago Bulls",82,"Boston",0,48
+"Dallas Mavericks",102,"Detroit Pistons",82,"Detroit",0,48
+"Houston Rockets",91,"Golden State Warriors",84,"Golden State",0,48
+"Memphis Grizzlies",117,"Seattle Supersonics",99,"Memphis",0,48
+"Milwaukee Bucks",112,"Cleveland Cavaliers",80,"Milwaukee",0,48
+"Minnesota Timberwolves",90,"Sacramento Kings",74,"Minnesota",0,48
+"New Orleans Hornets",106,"Atlanta Hawks",94,"New Orleans",0,48
+"Orlando Magic",112,"Los Angeles Lakers",102,"Orlando",0,48
+"Philadelphia 76ers",83,"Miami Heat",74,"Philadelphia",0,48
+"Phoenix Suns",82,"New Jersey Nets",75,"Phoenix",0,48
+"San Antonio Spurs",99,"Denver Nuggets",68,"San Antonio",0,48
+"New York Knicks",87,"Toronto Raptors",81,"Toronto",0,48
+"Indiana Pacers",110,"Dallas Mavericks",98,"Indiana",0,48
+"Los Angeles Clippers",126,"New Jersey Nets",118,"Los Angeles",1,53
+"Atlanta Hawks",100,"Miami Heat",94,"Atlanta",1,53
+"Toronto Raptors",98,"Boston Celtics",95,"Boston",0,48
+"Philadelphia 76ers",106,"Cleveland Cavaliers",99,"Cleveland",0,48
+"Golden State Warriors",92,"Denver Nuggets",82,"Denver",0,48
+"Detroit Pistons",96,"Milwaukee Bucks",91,"Detroit",0,48
+"Indiana Pacers",100,"Washington Wizards",84,"Indiana",0,48
+"Los Angeles Lakers",112,"Memphis Grizzlies",106,"Memphis",1,53
+"Phoenix Suns",94,"San Antonio Spurs",87,"Phoenix",0,48
+"Sacramento Kings",107,"Los Angeles Clippers",94,"Sacramento",0,48
+"Houston Rockets",83,"Seattle Supersonics",72,"Seattle",0,48
+"Utah Jazz",95,"Minnesota Timberwolves",77,"Utah",0,48
+"Dallas Mavericks",103,"Chicago Bulls",90,"Dallas",0,48
+"Golden State Warriors",100,"Phoenix Suns",90,"Golden State",0,48
+"Miami Heat",85,"Cleveland Cavaliers",79,"Miami",0,48
+"Milwaukee Bucks",109,"Detroit Pistons",86,"Milwaukee",0,48
+"New York Knicks",92,"New Orleans Hornets",86,"New York",1,53
+"Orlando Magic",117,"Atlanta Hawks",92,"Orlando",0,48
+"New Jersey Nets",93,"Portland Trail Blazers",86,"Portland",0,48
+"San Antonio Spurs",107,"Utah Jazz",85,"San Antonio",0,48
+"Philadelphia 76ers",95,"Washington Wizards",94,"Washington",0,48
+"Boston Celtics",95,"New Orleans Hornets",86,"Boston",0,48
+"Indiana Pacers",92,"Los Angeles Clippers",87,"Los Angeles",0,48
+"Minnesota Timberwolves",110,"Los Angeles Lakers",107,"Los Angeles",0,48
+"Toronto Raptors",92,"Memphis Grizzlies",87,"Memphis",0,48
+"Sacramento Kings",103,"Houston Rockets",84,"Sacramento",0,48
+"Seattle Supersonics",96,"New Jersey Nets",95,"Seattle",0,48
+"Dallas Mavericks",113,"Toronto Raptors",102,"Dallas",0,48
+"New York Knicks",125,"Cleveland Cavaliers",93,"New York",0,48
+"Boston Celtics",102,"Orlando Magic",97,"Orlando",0,48
+"Miami Heat",100,"Phoenix Suns",90,"Phoenix",1,53
+"Utah Jazz",102,"Indiana Pacers",91,"Utah",0,48
+"Golden State Warriors",110,"Denver Nuggets",89,"Golden State",0,48
+"Houston Rockets",89,"San Antonio Spurs",75,"Houston",0,48
+"Los Angeles Lakers",101,"Memphis Grizzlies",91,"Los Angeles",0,48
+"New Jersey Nets",87,"Atlanta Hawks",72,"New Jersey",0,48
+"Sacramento Kings",98,"Minnesota Timberwolves",86,"Sacramento",0,48
+"Washington Wizards",103,"Milwaukee Bucks",78,"Washington",0,48
+"New Orleans Hornets",115,"Chicago Bulls",90,"Chicago",0,48
+"Cleveland Cavaliers",111,"Chicago Bulls",101,"Cleveland",0,48
+"Sacramento Kings",92,"Denver Nuggets",90,"Denver",0,48
+"Washington Wizards",88,"Detroit Pistons",83,"Detroit",0,48
+"Los Angeles Clippers",89,"Miami Heat",80,"Los Angeles",0,48
+"New Orleans Hornets",89,"Toronto Raptors",74,"New Orleans",0,48
+"Orlando Magic",87,"New York Knicks",85,"New York",0,48
+"Philadelphia 76ers",99,"Boston Celtics",93,"Philadelphia",0,48
+"Phoenix Suns",98,"Memphis Grizzlies",85,"Phoenix",0,48
+"Dallas Mavericks",103,"Portland Trail Blazers",88,"Portland",0,48
+"Indiana Pacers",114,"Seattle Supersonics",111,"Seattle",1,53
+"Utah Jazz",93,"Los Angeles Lakers",85,"Utah",0,48
+"Atlanta Hawks",98,"Milwaukee Bucks",80,"Atlanta",0,48
+"Minnesota Timberwolves",114,"Golden State Warriors",98,"Golden State",0,48
+"Boston Celtics",91,"New York Knicks",80,"Boston",0,48
+"Los Angeles Lakers",105,"Dallas Mavericks",103,"Los Angeles",0,48
+"New Orleans Hornets",98,"Houston Rockets",96,"New Orleans",1,53
+"Orlando Magic",88,"Washington Wizards",78,"Orlando",0,48
+"Phoenix Suns",102,"Indiana Pacers",96,"Phoenix",0,48
+"Portland Trail Blazers",88,"Miami Heat",69,"Portland",0,48
+"Sacramento Kings",98,"Denver Nuggets",77,"Sacramento",0,48
+"San Antonio Spurs",98,"Philadelphia 76ers",93,"San Antonio",0,48
+"Toronto Raptors",103,"Chicago Bulls",89,"Toronto",0,48
+"Utah Jazz",104,"Memphis Grizzlies",71,"Utah",0,48
+"Atlanta Hawks",94,"Detroit Pistons",92,"Atlanta",0,48
+"Chicago Bulls",112,"Cleveland Cavaliers",104,"Chicago",0,48
+"Denver Nuggets",92,"Indiana Pacers",81,"Denver",0,48
+"Dallas Mavericks",121,"Golden State Warriors",116,"Golden State",0,48
+"Houston Rockets",97,"Philadelphia 76ers",72,"Houston",0,48
+"Los Angeles Clippers",104,"Minnesota Timberwolves",88,"Los Angeles",0,48
+"New Orleans Hornets",94,"Milwaukee Bucks",88,"Milwaukee",0,48
+"New Jersey Nets",121,"Orlando Magic",88,"New Jersey",0,48
+"Seattle Supersonics",100,"Miami Heat",71,"Seattle",0,48
+"Washington Wizards",100,"New York Knicks",97,"Washington",0,48
+"Los Angeles Lakers",110,"Utah Jazz",101,"Los Angeles",0,48
+"Memphis Grizzlies",102,"Phoenix Suns",94,"Memphis",0,48
+"Sacramento Kings",104,"San Antonio Spurs",80,"San Antonio",0,48
+"Portland Trail Blazers",104,"Toronto Raptors",91,"Toronto",0,48
+"Boston Celtics",114,"Orlando Magic",109,"Boston",1,53
+"Milwaukee Bucks",140,"Cleveland Cavaliers",133,"Cleveland",2,58
+"Minnesota Timberwolves",92,"Denver Nuggets",84,"Denver",0,48
+"New Jersey Nets",106,"Phoenix Suns",93,"New Jersey",0,48
+"Los Angeles Clippers",94,"New Orleans Hornets",90,"New Orleans",0,48
+"Chicago Bulls",107,"Orlando Magic",87,"Chicago",0,48
+"Dallas Mavericks",122,"Los Angeles Clippers",95,"Dallas",0,48
+"Golden State Warriors",106,"Los Angeles Lakers",102,"Golden State",0,48
+"Houston Rockets",103,"Sacramento Kings",96,"Houston",0,48
+"Memphis Grizzlies",107,"Miami Heat",96,"Miami",0,48
+"New York Knicks",97,"Seattle Supersonics",80,"New York",0,48
+"Portland Trail Blazers",98,"Washington Wizards",79,"Washington",0,48
+"Phoenix Suns",103,"Boston Celtics",94,"Boston",0,48
+"Cleveland Cavaliers",96,"Toronto Raptors",83,"Cleveland",0,48
+"Detroit Pistons",91,"Atlanta Hawks",80,"Detroit",0,48
+"Memphis Grizzlies",96,"Denver Nuggets",93,"Memphis",0,48
+"Indiana Pacers",126,"Milwaukee Bucks",119,"Milwaukee",1,53
+"New Jersey Nets",105,"Portland Trail Blazers",104,"New Jersey",0,48
+"Seattle Supersonics",92,"Philadelphia 76ers",88,"Philadelphia",0,48
+"San Antonio Spurs",111,"Dallas Mavericks",104,"San Antonio",0,48
+"Detroit Pistons",86,"Chicago Bulls",76,"Chicago",0,48
+"Minnesota Timberwolves",113,"Atlanta Hawks",95,"Minnesota",0,48
+"New Orleans Hornets",93,"Utah Jazz",88,"Utah",0,48
+"Boston Celtics",115,"Cleveland Cavaliers",100,"Boston",0,48
+"Indiana Pacers",94,"Denver Nuggets",72,"Indiana",0,48
+"New Orleans Hornets",98,"Los Angeles Lakers",82,"Los Angeles",0,48
+"Memphis Grizzlies",114,"Houston Rockets",109,"Memphis",1,53
+"New York Knicks",97,"Miami Heat",92,"Miami",0,48
+"Milwaukee Bucks",101,"Portland Trail Blazers",79,"Milwaukee",0,48
+"New Jersey Nets",79,"Washington Wizards",65,"New Jersey",0,48
+"Orlando Magic",111,"Golden State Warriors",85,"Orlando",0,48
+"Phoenix Suns",99,"Philadelphia 76ers",91,"Philadelphia",0,48
+"San Antonio Spurs",97,"Los Angeles Clippers",84,"San Antonio",0,48
+"Seattle Supersonics",91,"Toronto Raptors",79,"Toronto",0,48
+"Phoenix Suns",102,"Atlanta Hawks",88,"Atlanta",0,48
+"Chicago Bulls",97,"Milwaukee Bucks",95,"Chicago",0,48
+"Cleveland Cavaliers",111,"Denver Nuggets",104,"Cleveland",0,48
+"Dallas Mavericks",104,"Memphis Grizzlies",87,"Dallas",0,48
+"Detroit Pistons",91,"Seattle Supersonics",78,"Detroit",0,48
+"Los Angeles Clippers",94,"Houston Rockets",83,"Houston",0,48
+"Miami Heat",101,"Golden State Warriors",92,"Miami",0,48
+"Portland Trail Blazers",98,"Minnesota Timberwolves",92,"Minnesota",1,53
+"Boston Celtics",113,"New York Knicks",90,"New York",0,48
+"Sacramento Kings",98,"Utah Jazz",96,"Utah",0,48
+"Detroit Pistons",101,"New Jersey Nets",91,"Detroit",0,48
+"Indiana Pacers",107,"Philadelphia 76ers",97,"Indiana",0,48
+"Los Angeles Lakers",107,"Orlando Magic",84,"Los Angeles",0,48
+"Sacramento Kings",107,"New Orleans Hornets",92,"Sacramento",0,48
+"Washington Wizards",95,"Toronto Raptors",82,"Toronto",0,48
+"Chicago Bulls",94,"Boston Celtics",83,"Chicago",0,48
+"Seattle Supersonics",111,"Cleveland Cavaliers",98,"Cleveland",0,48
+"Los Angeles Clippers",91,"San Antonio Spurs",79,"Los Angeles",0,48
+"Memphis Grizzlies",104,"Golden State Warriors",91,"Memphis",0,48
+"Houston Rockets",105,"Miami Heat",100,"Miami",1,53
+"Philadelphia 76ers",93,"Denver Nuggets",71,"Philadelphia",0,48
+"Phoenix Suns",87,"Orlando Magic",84,"Phoenix",0,48
+"Washington Wizards",109,"Atlanta Hawks",99,"Atlanta",0,48
+"Dallas Mavericks",118,"Indiana Pacers",97,"Dallas",0,48
+"Toronto Raptors",122,"Milwaukee Bucks",117,"Milwaukee",1,53
+"Minnesota Timberwolves",96,"Los Angeles Lakers",80,"Minnesota",0,48
+"New York Knicks",101,"New Jersey Nets",99,"New York",0,48
+"Portland Trail Blazers",102,"New Orleans Hornets",93,"Portland",0,48
+"Sacramento Kings",95,"Phoenix Suns",86,"Sacramento",0,48
+"Miami Heat",91,"Boston Celtics",81,"Boston",0,48
+"Chicago Bulls",96,"Toronto Raptors",83,"Chicago",0,48
+"Detroit Pistons",111,"Cleveland Cavaliers",106,"Cleveland",1,53
+"Dallas Mavericks",80,"Denver Nuggets",75,"Denver",0,48
+"Golden State Warriors",111,"New Orleans Hornets",106,"Golden State",0,48
+"Houston Rockets",95,"Indiana Pacers",83,"Houston",0,48
+"Portland Trail Blazers",97,"Los Angeles Clippers",93,"Los Angeles",0,48
+"Philadelphia 76ers",99,"Minnesota Timberwolves",94,"Philadelphia",0,48
+"San Antonio Spurs",91,"Seattle Supersonics",88,"Seattle",0,48
+"Orlando Magic",97,"Utah Jazz",90,"Utah",0,48
+"Washington Wizards",118,"Memphis Grizzlies",100,"Washington",0,48
+"New Jersey Nets",98,"Los Angeles Lakers",71,"New Jersey",0,48
+"San Antonio Spurs",83,"Sacramento Kings",81,"Sacramento",0,48
+"Boston Celtics",108,"Minnesota Timberwolves",99,"Boston",0,48
+"Utah Jazz",93,"Dallas Mavericks",81,"Dallas",0,48
+"Orlando Magic",89,"Denver Nuggets",80,"Denver",0,48
+"Detroit Pistons",109,"Cleveland Cavaliers",107,"Detroit",1,53
+"Portland Trail Blazers",113,"Golden State Warriors",111,"Golden State",0,48
+"Houston Rockets",101,"Atlanta Hawks",82,"Houston",0,48
+"Indiana Pacers",101,"Chicago Bulls",86,"Indiana",0,48
+"Phoenix Suns",87,"Los Angeles Clippers",76,"Los Angeles",0,48
+"Memphis Grizzlies",95,"Milwaukee Bucks",84,"Memphis",0,48
+"Philadelphia 76ers",107,"Los Angeles Lakers",104,"Philadelphia",1,53
+"New Orleans Hornets",88,"Seattle Supersonics",86,"Seattle",1,53
+"Miami Heat",97,"Toronto Raptors",77,"Toronto",0,48
+"Atlanta Hawks",79,"Philadelphia 76ers",77,"Atlanta",0,48
+"Chicago Bulls",110,"Indiana Pacers",103,"Chicago",0,48
+"Boston Celtics",89,"Cleveland Cavaliers",82,"Cleveland",0,48
+"Los Angeles Clippers",92,"Denver Nuggets",89,"Los Angeles",0,48
+"Milwaukee Bucks",94,"New York Knicks",90,"Milwaukee",0,48
+"Minnesota Timberwolves",98,"Houston Rockets",86,"Minnesota",0,48
+"New Jersey Nets",100,"Detroit Pistons",92,"New Jersey",0,48
+"Phoenix Suns",110,"Sacramento Kings",101,"Phoenix",0,48
+"Portland Trail Blazers",81,"Seattle Supersonics",80,"Portland",0,48
+"San Antonio Spurs",92,"Washington Wizards",81,"San Antonio",0,48
+"Utah Jazz",103,"Memphis Grizzlies",74,"Memphis",0,48
+"Miami Heat",92,"New York Knicks",84,"New York",0,48
+"Sacramento Kings",103,"Golden State Warriors",88,"Sacramento",0,48
+"Los Angeles Lakers",109,"Toronto Raptors",107,"Toronto",1,53
+"Cleveland Cavaliers",74,"Miami Heat",72,"Cleveland",0,48
+"Dallas Mavericks",92,"Washington Wizards",86,"Dallas",0,48
+"Utah Jazz",96,"Houston Rockets",91,"Houston",0,48
+"Indiana Pacers",112,"Atlanta Hawks",97,"Indiana",0,48
+"New Jersey Nets",99,"Chicago Bulls",83,"New Jersey",0,48
+"Milwaukee Bucks",108,"Orlando Magic",103,"Orlando",0,48
+"Phoenix Suns",89,"Seattle Supersonics",88,"Phoenix",0,48
+"San Antonio Spurs",99,"New Orleans Hornets",94,"San Antonio",1,53
+"Sacramento Kings",105,"Los Angeles Lakers",99,"Los Angeles",0,48
+"New Jersey Nets",117,"Boston Celtics",81,"New Jersey",0,48
+"Orlando Magic",104,"Detroit Pistons",99,"Orlando",0,48
+"Dallas Mavericks",83,"New Orleans Hornets",81,"New Orleans",0,48
+"Seattle Supersonics",97,"Toronto Raptors",88,"Seattle",0,48
+"Detroit Pistons",87,"Washington Wizards",82,"Washington",0,48
+"Atlanta Hawks",81,"San Antonio Spurs",79,"Atlanta",0,48
+"Minnesota Timberwolves",113,"Chicago Bulls",100,"Chicago",0,48
+"Indiana Pacers",113,"Cleveland Cavaliers",89,"Cleveland",0,48
+"Golden State Warriors",101,"Toronto Raptors",96,"Golden State",0,48
+"New York Knicks",99,"Houston Rockets",83,"Houston",0,48
+"Memphis Grizzlies",99,"Orlando Magic",86,"Memphis",0,48
+"Miami Heat",90,"Boston Celtics",70,"Miami",0,48
+"New Jersey Nets",110,"Milwaukee Bucks",90,"New Jersey",0,48
+"Phoenix Suns",108,"Los Angeles Clippers",95,"Phoenix",0,48
+"Portland Trail Blazers",103,"Utah Jazz",98,"Portland",0,48
+"San Antonio Spurs",109,"Chicago Bulls",95,"Chicago",0,48
+"Dallas Mavericks",107,"New York Knicks",82,"Dallas",0,48
+"Los Angeles Lakers",112,"Denver Nuggets",93,"Denver",0,48
+"Detroit Pistons",106,"Minnesota Timberwolves",82,"Detroit",0,48
+"Indiana Pacers",91,"New Orleans Hornets",84,"Indiana",0,48
+"Golden State Warriors",99,"Los Angeles Clippers",92,"Los Angeles",0,48
+"New Jersey Nets",104,"Milwaukee Bucks",96,"Milwaukee",0,48
+"Orlando Magic",101,"Boston Celtics",95,"Orlando",0,48
+"Portland Trail Blazers",119,"Sacramento Kings",113,"Sacramento",1,53
+"Utah Jazz",98,"Philadelphia 76ers",69,"Utah",0,48
+"Washington Wizards",84,"Atlanta Hawks",76,"Washington",0,48
+"Phoenix Suns",103,"Cleveland Cavaliers",84,"Cleveland",0,48
+"Houston Rockets",97,"New Orleans Hornets",85,"Houston",0,48
+"Los Angeles Lakers",104,"Toronto Raptors",88,"Los Angeles",0,48
+"Milwaukee Bucks",110,"Dallas Mavericks",107,"Dallas",0,48
+"Seattle Supersonics",79,"Denver Nuggets",77,"Denver",0,48
+"Portland Trail Blazers",85,"Detroit Pistons",74,"Detroit",0,48
+"Golden State Warriors",104,"Philadelphia 76ers",98,"Golden State",0,48
+"Miami Heat",93,"Atlanta Hawks",84,"Miami",0,48
+"Minnesota Timberwolves",104,"Phoenix Suns",98,"Minnesota",0,48
+"New Jersey Nets",102,"Cleveland Cavaliers",88,"New Jersey",0,48
+"New York Knicks",96,"San Antonio Spurs",95,"New York",0,48
+"Orlando Magic",112,"Washington Wizards",95,"Orlando",0,48
+"Utah Jazz",107,"Toronto Raptors",85,"Utah",0,48
+"Boston Celtics",96,"Memphis Grizzlies",89,"Boston",0,48
+"Chicago Bulls",102,"Portland Trail Blazers",87,"Chicago",0,48
+"Houston Rockets",103,"Milwaukee Bucks",80,"Houston",0,48
+"Philadelphia 76ers",83,"Los Angeles Clippers",75,"Los Angeles",0,48
+"Indiana Pacers",89,"New Orleans Hornets",86,"New Orleans",0,48
+"Washington Wizards",105,"San Antonio Spurs",103,"Washington",0,48
+"Miami Heat",107,"Atlanta Hawks",73,"Atlanta",0,48
+"New York Knicks",95,"Toronto Raptors",75,"New York",0,48
+"Washington Wizards",107,"Chicago Bulls",82,"Chicago",0,48
+"Dallas Mavericks",102,"Los Angeles Clippers",92,"Dallas",0,48
+"Phoenix Suns",96,"Philadelphia 76ers",78,"Phoenix",0,48
+"Portland Trail Blazers",108,"Boston Celtics",103,"Boston",0,48
+"Memphis Grizzlies",116,"Los Angeles Clippers",111,"Memphis",0,48
+"New Jersey Nets",100,"Miami Heat",80,"Miami",0,48
+"Utah Jazz",118,"Milwaukee Bucks",115,"Milwaukee",0,48
+"New Orleans Hornets",100,"Orlando Magic",89,"New Orleans",0,48
+"New York Knicks",98,"Indiana Pacers",96,"New York",0,48
+"San Antonio Spurs",98,"Golden State Warriors",95,"San Antonio",0,48
+"Denver Nuggets",94,"Seattle Supersonics",82,"Seattle",0,48
+"Cleveland Cavaliers",81,"Toronto Raptors",80,"Toronto",0,48
+"Detroit Pistons",90,"Atlanta Hawks",86,"Atlanta",0,48
+"Chicago Bulls",85,"Cleveland Cavaliers",79,"Chicago",0,48
+"Dallas Mavericks",102,"Philadelphia 76ers",83,"Dallas",0,48
+"Sacramento Kings",87,"Denver Nuggets",76,"Denver",0,48
+"Golden State Warriors",86,"Houston Rockets",84,"Houston",0,48
+"Utah Jazz",105,"Minnesota Timberwolves",97,"Minnesota",0,48
+"New Jersey Nets",88,"Orlando Magic",83,"Orlando",0,48
+"Phoenix Suns",107,"Los Angeles Lakers",93,"Phoenix",0,48
+"Washington Wizards",107,"Indiana Pacers",104,"Washington",2,58
+"San Antonio Spurs",94,"Los Angeles Clippers",86,"Los Angeles",0,48
+"Los Angeles Lakers",109,"Phoenix Suns",97,"Los Angeles",0,48
+"Portland Trail Blazers",92,"New York Knicks",89,"New York",0,48
+"Sacramento Kings",96,"Miami Heat",70,"Sacramento",0,48
+"New Orleans Hornets",99,"Toronto Raptors",84,"Toronto",0,48
+"New Jersey Nets",101,"Atlanta Hawks",94,"Atlanta",0,48
+"Washington Wizards",100,"Boston Celtics",95,"Boston",0,48
+"Chicago Bulls",113,"Utah Jazz",98,"Chicago",0,48
+"Milwaukee Bucks",106,"Cleveland Cavaliers",94,"Cleveland",0,48
+"Dallas Mavericks",86,"Denver Nuggets",71,"Dallas",0,48
+"Detroit Pistons",82,"Toronto Raptors",74,"Detroit",0,48
+"Golden State Warriors",99,"Miami Heat",85,"Golden State",0,48
+"Memphis Grizzlies",106,"New Orleans Hornets",102,"Memphis",0,48
+"Orlando Magic",103,"New York Knicks",100,"Orlando",0,48
+"Indiana Pacers",105,"Philadelphia 76ers",104,"Philadelphia",1,53
+"Houston Rockets",94,"Minnesota Timberwolves",86,"Houston",0,48
+"Los Angeles Lakers",119,"Seattle Supersonics",98,"Los Angeles",0,48
+"Sacramento Kings",101,"Milwaukee Bucks",76,"Milwaukee",0,48
+"Phoenix Suns",88,"Portland Trail Blazers",81,"Portland",0,48
+"Dallas Mavericks",117,"Atlanta Hawks",99,"Atlanta",0,48
+"Denver Nuggets",86,"Miami Heat",76,"Denver",0,48
+"Indiana Pacers",89,"New York Knicks",87,"Indiana",0,48
+"Los Angeles Clippers",103,"Memphis Grizzlies",95,"Los Angeles",0,48
+"Minnesota Timberwolves",102,"Golden State Warriors",95,"Minnesota",0,48
+"Boston Celtics",93,"New Orleans Hornets",83,"New Orleans",0,48
+"Houston Rockets",91,"Orlando Magic",81,"Orlando",0,48
+"Detroit Pistons",103,"Philadelphia 76ers",94,"Philadelphia",1,53
+"San Antonio Spurs",106,"Seattle Supersonics",95,"Seattle",0,48
+"Utah Jazz",99,"Phoenix Suns",93,"Utah",0,48
+"Washington Wizards",101,"Chicago Bulls",98,"Washington",0,48
+"Sacramento Kings",118,"New Jersey Nets",82,"New Jersey",0,48
+"Portland Trail Blazers",90,"San Antonio Spurs",87,"Portland",0,48
+"Denver Nuggets",82,"Portland Trail Blazers",81,"Denver",0,48
+"Los Angeles Lakers",115,"Cleveland Cavaliers",99,"Los Angeles",0,48
+"Milwaukee Bucks",93,"Chicago Bulls",85,"Milwaukee",1,53
+"Minnesota Timberwolves",115,"Sacramento Kings",109,"Minnesota",1,53
+"Detroit Pistons",101,"New Orleans Hornets",99,"New Orleans",1,53
+"Indiana Pacers",101,"Orlando Magic",97,"Orlando",1,53
+"New York Knicks",114,"Philadelphia 76ers",112,"Philadelphia",0,48
+"Phoenix Suns",96,"Memphis Grizzlies",90,"Phoenix",0,48
+"Los Angeles Clippers",90,"Seattle Supersonics",88,"Seattle",0,48
+"New Jersey Nets",94,"Toronto Raptors",79,"Toronto",0,48
+"Utah Jazz",92,"Miami Heat",76,"Utah",0,48
+"Golden State Warriors",104,"Washington Wizards",99,"Washington",0,48
+"Atlanta Hawks",84,"Houston Rockets",75,"Atlanta",0,48
+"Dallas Mavericks",103,"Boston Celtics",78,"Dallas",0,48
+"Atlanta Hawks",87,"New Orleans Hornets",80,"Atlanta",0,48
+"Milwaukee Bucks",89,"Detroit Pistons",87,"Detroit",0,48
+"Houston Rockets",87,"Denver Nuggets",85,"Houston",0,48
+"Indiana Pacers",116,"Golden State Warriors",104,"Indiana",0,48
+"Washington Wizards",89,"New York Knicks",84,"New York",0,48
+"Dallas Mavericks",96,"Los Angeles Clippers",90,"Los Angeles",0,48
+"Los Angeles Lakers",106,"Miami Heat",81,"Los Angeles",0,48
+"Orlando Magic",107,"Philadelphia 76ers",105,"Philadelphia",0,48
+"Phoenix Suns",107,"Utah Jazz",99,"Phoenix",0,48
+"Sacramento Kings",106,"Memphis Grizzlies",98,"Sacramento",0,48
+"San Antonio Spurs",81,"Boston Celtics",80,"San Antonio",0,48
+"Cleveland Cavaliers",87,"Seattle Supersonics",79,"Seattle",0,48
+"Toronto Raptors",105,"Minnesota Timberwolves",91,"Toronto",0,48
+"Chicago Bulls",101,"New York Knicks",94,"Chicago",0,48
+"Memphis Grizzlies",110,"Golden State Warriors",108,"Golden State",0,48
+"Houston Rockets",101,"Boston Celtics",92,"Houston",0,48
+"Minnesota Timberwolves",89,"Denver Nuggets",75,"Minnesota",0,48
+"Detroit Pistons",101,"Orlando Magic",86,"Orlando",0,48
+"Portland Trail Blazers",118,"Cleveland Cavaliers",94,"Portland",0,48
+"Miami Heat",88,"Detroit Pistons",85,"Miami",0,48
+"Milwaukee Bucks",97,"Atlanta Hawks",88,"Milwaukee",0,48
+"New York Knicks",98,"Chicago Bulls",86,"New York",0,48
+"San Antonio Spurs",108,"Phoenix Suns",100,"San Antonio",1,53
+"Toronto Raptors",84,"Washington Wizards",75,"Washington",0,48
+"Boston Celtics",86,"Atlanta Hawks",66,"Boston",0,48
+"Utah Jazz",92,"Denver Nuggets",81,"Denver",0,48
+"Golden State Warriors",108,"Cleveland Cavaliers",80,"Golden State",0,48
+"Houston Rockets",102,"Phoenix Suns",96,"Houston",0,48
+"Indiana Pacers",104,"Miami Heat",81,"Indiana",0,48
+"Minnesota Timberwolves",95,"Los Angeles Clippers",64,"Los Angeles",0,48
+"Los Angeles Lakers",90,"New Orleans Hornets",82,"New Orleans",0,48
+"Philadelphia 76ers",108,"New Jersey Nets",107,"Philadelphia",0,48
+"Portland Trail Blazers",100,"Memphis Grizzlies",92,"Portland",0,48
+"Sacramento Kings",123,"Dallas Mavericks",94,"Sacramento",0,48
+"Milwaukee Bucks",99,"Toronto Raptors",87,"Toronto",0,48
+"Utah Jazz",92,"Seattle Supersonics",85,"Utah",0,48
+"Washington Wizards",108,"Orlando Magic",93,"Washington",0,48
+"Boston Celtics",98,"Indiana Pacers",93,"Boston",0,48
+"Denver Nuggets",97,"Cleveland Cavaliers",80,"Denver",0,48
+"Detroit Pistons",99,"New York Knicks",82,"Detroit",0,48
+"Golden State Warriors",107,"Minnesota Timberwolves",98,"Golden State",0,48
+"Houston Rockets",108,"Los Angeles Lakers",104,"Houston",1,53
+"New Jersey Nets",88,"Toronto Raptors",77,"New Jersey",0,48
+"New Orleans Hornets",90,"Chicago Bulls",83,"New Orleans",0,48
+"Milwaukee Bucks",99,"Philadelphia 76ers",95,"Philadelphia",0,48
+"Phoenix Suns",111,"Dallas Mavericks",106,"Phoenix",0,48
+"San Antonio Spurs",106,"Atlanta Hawks",93,"San Antonio",0,48
+"Seattle Supersonics",103,"Memphis Grizzlies",97,"Seattle",1,53
+"New York Knicks",95,"Atlanta Hawks",92,"Atlanta",0,48
+"Indiana Pacers",88,"Detroit Pistons",86,"Indiana",0,48
+"Los Angeles Clippers",112,"Sacramento Kings",107,"Los Angeles",0,48
+"Miami Heat",102,"Chicago Bulls",101,"Miami",2,58
+"Boston Celtics",97,"Milwaukee Bucks",95,"Milwaukee",0,48
+"Minnesota Timberwolves",104,"Portland Trail Blazers",98,"Portland",0,48
+"Utah Jazz",95,"Cleveland Cavaliers",78,"Utah",0,48
+"Philadelphia 76ers",88,"Washington Wizards",80,"Washington",0,48
+"Seattle Supersonics",85,"Dallas Mavericks",81,"Seattle",0,48
+"Orlando Magic",101,"Toronto Raptors",93,"Toronto",0,48
+"Chicago Bulls",115,"Atlanta Hawks",102,"Atlanta",0,48
+"Detroit Pistons",88,"Indiana Pacers",78,"Detroit",0,48
+"Sacramento Kings",102,"Golden State Warriors",80,"Golden State",0,48
+"Los Angeles Lakers",96,"Los Angeles Clippers",92,"Los Angeles",0,48
+"Portland Trail Blazers",99,"Memphis Grizzlies",87,"Memphis",0,48
+"Minnesota Timberwolves",89,"Toronto Raptors",81,"Minnesota",0,48
+"New Orleans Hornets",114,"Phoenix Suns",102,"New Orleans",0,48
+"New York Knicks",72,"Miami Heat",65,"New York",0,48
+"Boston Celtics",100,"Philadelphia 76ers",99,"Philadelphia",0,48
+"San Antonio Spurs",87,"Houston Rockets",82,"San Antonio",0,48
+"Utah Jazz",106,"New Jersey Nets",103,"Utah",1,53
+"Washington Wizards",89,"Denver Nuggets",74,"Washington",0,48
+"Orlando Magic",103,"Cleveland Cavaliers",94,"Cleveland",0,48
+"Dallas Mavericks",107,"Houston Rockets",86,"Dallas",0,48
+"Sacramento Kings",109,"New Jersey Nets",102,"Sacramento",0,48
+"Portland Trail Blazers",112,"Atlanta Hawks",110,"Atlanta",2,58
+"Milwaukee Bucks",106,"Boston Celtics",97,"Boston",0,48
+"Philadelphia 76ers",92,"Detroit Pistons",83,"Detroit",0,48
+"Indiana Pacers",101,"Toronto Raptors",98,"Indiana",0,48
+"Golden State Warriors",114,"Los Angeles Lakers",110,"Los Angeles",0,48
+"Miami Heat",92,"Phoenix Suns",85,"Miami",0,48
+"Minnesota Timberwolves",96,"Seattle Supersonics",91,"Minnesota",0,48
+"New Orleans Hornets",103,"Washington Wizards",94,"New Orleans",0,48
+"New York Knicks",97,"Denver Nuggets",88,"New York",0,48
+"Orlando Magic",94,"Chicago Bulls",91,"Orlando",0,48
+"Memphis Grizzlies",98,"San Antonio Spurs",93,"San Antonio",0,48
+"Los Angeles Clippers",96,"Utah Jazz",89,"Utah",0,48
+"Golden State Warriors",105,"New Jersey Nets",97,"Golden State",0,48
+"Sacramento Kings",104,"Memphis Grizzlies",98,"Memphis",0,48
+"Dallas Mavericks",107,"Philadelphia 76ers",94,"Philadelphia",0,48
+"Atlanta Hawks",115,"Sacramento Kings",104,"Atlanta",0,48
+"Boston Celtics",77,"Denver Nuggets",58,"Boston",0,48
+"Chicago Bulls",104,"Washington Wizards",97,"Chicago",0,48
+"Detroit Pistons",98,"Houston Rockets",74,"Houston",0,48
+"Indiana Pacers",93,"Seattle Supersonics",80,"Indiana",0,48
+"New Jersey Nets",89,"Los Angeles Lakers",83,"Los Angeles",0,48
+"Minnesota Timberwolves",88,"Los Angeles Clippers",85,"Minnesota",0,48
+"Portland Trail Blazers",97,"New Orleans Hornets",96,"New Orleans",1,53
+"Dallas Mavericks",101,"New York Knicks",90,"New York",0,48
+"Phoenix Suns",110,"Orlando Magic",107,"Orlando",0,48
+"San Antonio Spurs",91,"Utah Jazz",90,"Utah",0,48
+"Atlanta Hawks",102,"Cleveland Cavaliers",101,"Cleveland",1,53
+"Golden State Warriors",108,"Utah Jazz",95,"Golden State",0,48
+"Seattle Supersonics",95,"Memphis Grizzlies",83,"Memphis",0,48
+"Philadelphia 76ers",97,"Miami Heat",91,"Miami",0,48
+"Milwaukee Bucks",88,"Denver Nuggets",75,"Milwaukee",0,48
+"San Antonio Spurs",108,"Detroit Pistons",76,"San Antonio",0,48
+"Minnesota Timberwolves",97,"Washington Wizards",89,"Washington",0,48
+"Boston Celtics",91,"Orlando Magic",83,"Boston",0,48
+"Chicago Bulls",100,"Houston Rockets",98,"Chicago",0,48
+"Portland Trail Blazers",100,"Dallas Mavericks",93,"Dallas",0,48
+"Indiana Pacers",108,"Los Angeles Clippers",101,"Indiana",0,48
+"New York Knicks",106,"Phoenix Suns",98,"New York",0,48
+"Toronto Raptors",101,"Sacramento Kings",97,"Toronto",0,48
+"Cleveland Cavaliers",104,"Los Angeles Clippers",100,"Cleveland",0,48
+"New Jersey Nets",92,"Denver Nuggets",66,"Denver",0,48
+"Houston Rockets",100,"Memphis Grizzlies",95,"Memphis",0,48
+"Indiana Pacers",102,"Miami Heat",95,"Miami",0,48
+"Minnesota Timberwolves",106,"San Antonio Spurs",95,"Minnesota",0,48
+"Milwaukee Bucks",108,"New Orleans Hornets",93,"New Orleans",0,48
+"Washington Wizards",98,"Phoenix Suns",93,"Washington",0,48
+"Detroit Pistons",86,"Boston Celtics",83,"Detroit",0,48
+"Philadelphia 76ers",108,"Milwaukee Bucks",81,"Milwaukee",0,48
+"New York Knicks",103,"Atlanta Hawks",98,"New York",0,48
+"Portland Trail Blazers",98,"Denver Nuggets",92,"Portland",0,48
+"Utah Jazz",102,"Sacramento Kings",92,"Sacramento",0,48
+"Seattle Supersonics",91,"Golden State Warriors",88,"Seattle",0,48
+"Dallas Mavericks",104,"Houston Rockets",81,"Houston",0,48
+"San Antonio Spurs",106,"Indiana Pacers",97,"Indiana",0,48
+"Los Angeles Clippers",77,"Chicago Bulls",75,"Los Angeles",0,48
+"Miami Heat",82,"New York Knicks",80,"Miami",0,48
+"New Jersey Nets",86,"Washington Wizards",78,"New Jersey",0,48
+"New Orleans Hornets",104,"Toronto Raptors",83,"New Orleans",0,48
+"Orlando Magic",113,"Cleveland Cavaliers",108,"Orlando",0,48
+"Atlanta Hawks",97,"Philadelphia 76ers",83,"Philadelphia",0,48
+"Los Angeles Lakers",99,"Phoenix Suns",90,"Phoenix",0,48
+"Utah Jazz",95,"Portland Trail Blazers",71,"Utah",0,48
+"Dallas Mavericks",112,"Minnesota Timberwolves",109,"Dallas",0,48
+"Milwaukee Bucks",97,"Washington Wizards",90,"Milwaukee",0,48
+"Sacramento Kings",95,"Seattle Supersonics",77,"Seattle",0,48
+"Atlanta Hawks",96,"Cleveland Cavaliers",91,"Atlanta",0,48
+"Detroit Pistons",118,"Boston Celtics",66,"Boston",0,48
+"Houston Rockets",121,"Minnesota Timberwolves",101,"Houston",0,48
+"Phoenix Suns",98,"Los Angeles Clippers",92,"Los Angeles",0,48
+"New York Knicks",108,"Memphis Grizzlies",102,"Memphis",0,48
+"New Jersey Nets",89,"New Orleans Hornets",72,"New Jersey",0,48
+"San Antonio Spurs",109,"Orlando Magic",108,"Orlando",0,48
+"Philadelphia 76ers",104,"Miami Heat",99,"Philadelphia",0,48
+"Portland Trail Blazers",107,"Chicago Bulls",94,"Portland",0,48
+"Los Angeles Lakers",124,"Sacramento Kings",113,"Sacramento",0,48
+"Toronto Raptors",102,"Indiana Pacers",90,"Toronto",0,48
+"Utah Jazz",102,"Golden State Warriors",94,"Utah",0,48
+"Dallas Mavericks",122,"Denver Nuggets",100,"Dallas",0,48
+"Detroit Pistons",106,"New Jersey Nets",84,"Detroit",0,48
+"Indiana Pacers",109,"Boston Celtics",100,"Indiana",0,48
+"Los Angeles Lakers",99,"Utah Jazz",87,"Los Angeles",0,48
+"San Antonio Spurs",67,"Miami Heat",65,"Miami",0,48
+"Milwaukee Bucks",107,"New York Knicks",100,"Milwaukee",0,48
+"Phoenix Suns",116,"Golden State Warriors",107,"Phoenix",0,48
+"Seattle Supersonics",90,"Chicago Bulls",77,"Seattle",0,48
+"Washington Wizards",109,"New Orleans Hornets",104,"Washington",0,48
+"Atlanta Hawks",97,"Orlando Magic",89,"Atlanta",0,48
+"Portland Trail Blazers",114,"Cleveland Cavaliers",95,"Cleveland",0,48
+"Denver Nuggets",93,"Memphis Grizzlies",78,"Denver",0,48
+"Houston Rockets",105,"Sacramento Kings",89,"Houston",0,48
+"Minnesota Timberwolves",99,"Philadelphia 76ers",91,"Minnesota",0,48
+"Toronto Raptors",100,"Los Angeles Clippers",86,"Toronto",0,48
+"Golden State Warriors",101,"Memphis Grizzlies",91,"Golden State",0,48
+"Miami Heat",99,"Atlanta Hawks",79,"Miami",0,48
+"New Jersey Nets",109,"Seattle Supersonics",108,"New Jersey",1,53
+"New Orleans Hornets",103,"Boston Celtics",96,"New Orleans",0,48
+"Phoenix Suns",115,"Chicago Bulls",111,"Phoenix",1,53
+"Dallas Mavericks",92,"Utah Jazz",90,"Utah",0,48
+"Sacramento Kings",110,"Dallas Mavericks",109,"Dallas",0,48
+"Denver Nuggets",102,"Chicago Bulls",100,"Denver",1,53
+"Los Angeles Lakers",97,"Indiana Pacers",94,"Indiana",0,48
+"Toronto Raptors",98,"Milwaukee Bucks",95,"Milwaukee",0,48
+"Minnesota Timberwolves",103,"Houston Rockets",89,"Minnesota",0,48
+"New York Knicks",105,"Los Angeles Clippers",92,"New York",0,48
+"Portland Trail Blazers",96,"Orlando Magic",89,"Orlando",0,48
+"Washington Wizards",93,"Cleveland Cavaliers",84,"Washington",0,48
+"Boston Celtics",114,"Seattle Supersonics",74,"Boston",0,48
+"Cleveland Cavaliers",105,"Houston Rockets",102,"Cleveland",0,48
+"Detroit Pistons",89,"Los Angeles Clippers",80,"Detroit",0,48
+"San Antonio Spurs",103,"Golden State Warriors",99,"Golden State",0,48
+"Portland Trail Blazers",101,"Miami Heat",87,"Miami",0,48
+"New Orleans Hornets",108,"Sacramento Kings",84,"New Orleans",0,48
+"New Jersey Nets",111,"Philadelphia 76ers",85,"Philadelphia",0,48
+"Utah Jazz",105,"Memphis Grizzlies",84,"Utah",0,48
+"San Antonio Spurs",83,"Denver Nuggets",74,"Denver",0,48
+"Milwaukee Bucks",97,"Seattle Supersonics",91,"Milwaukee",0,48
+"Los Angeles Lakers",114,"New York Knicks",109,"New York",0,48
+"Golden State Warriors",116,"Atlanta Hawks",113,"Atlanta",0,48
+"Detroit Pistons",89,"Chicago Bulls",79,"Chicago",0,48
+"Utah Jazz",103,"Houston Rockets",101,"Houston",1,53
+"Indiana Pacers",107,"Cleveland Cavaliers",96,"Indiana",0,48
+"Los Angeles Lakers",121,"Denver Nuggets",93,"Los Angeles",0,48
+"New Orleans Hornets",78,"Miami Heat",69,"Miami",0,48
+"Minnesota Timberwolves",100,"Dallas Mavericks",98,"Minnesota",0,48
+"Orlando Magic",92,"New Jersey Nets",83,"Orlando",0,48
+"Los Angeles Clippers",107,"Phoenix Suns",106,"Phoenix",0,48
+"San Antonio Spurs",116,"Portland Trail Blazers",111,"Portland",1,53
+"Sacramento Kings",99,"Washington Wizards",80,"Sacramento",0,48
+"Boston Celtics",82,"Seattle Supersonics",76,"Seattle",0,48
+"Minnesota Timberwolves",102,"Cleveland Cavaliers",91,"Cleveland",0,48
+"Los Angeles Lakers",113,"Denver Nuggets",102,"Denver",0,48
+"Washington Wizards",108,"Los Angeles Clippers",104,"Los Angeles",0,48
+"Memphis Grizzlies",97,"New Jersey Nets",90,"Memphis",0,48
+"Milwaukee Bucks",120,"Dallas Mavericks",114,"Milwaukee",0,48
+"Indiana Pacers",83,"New Orleans Hornets",72,"New Orleans",0,48
+"Golden State Warriors",113,"New York Knicks",107,"New York",0,48
+"Philadelphia 76ers",119,"Chicago Bulls",111,"Philadelphia",1,53
+"Toronto Raptors",97,"Atlanta Hawks",96,"Toronto",0,48
+"Houston Rockets",106,"Utah Jazz",76,"Utah",0,48
+"Detroit Pistons",98,"Orlando Magic",88,"Detroit",0,48
+"Boston Celtics",100,"Portland Trail Blazers",92,"Portland",0,48
+"Miami Heat",94,"Houston Rockets",82,"Houston",0,48
+"Indiana Pacers",98,"Atlanta Hawks",97,"Indiana",1,53
+"San Antonio Spurs",103,"Los Angeles Lakers",95,"Los Angeles",0,48
+"Dallas Mavericks",110,"Memphis Grizzlies",103,"Memphis",0,48
+"Milwaukee Bucks",96,"Detroit Pistons",86,"Milwaukee",0,48
+"Minnesota Timberwolves",114,"New Orleans Hornets",93,"Minnesota",0,48
+"New Jersey Nets",90,"Chicago Bulls",72,"New Jersey",0,48
+"Philadelphia 76ers",99,"Orlando Magic",98,"Philadelphia",0,48
+"New York Knicks",116,"Phoenix Suns",115,"Phoenix",0,48
+"Sacramento Kings",110,"Seattle Supersonics",81,"Sacramento",0,48
+"Golden State Warriors",118,"Toronto Raptors",114,"Toronto",1,53
+"Utah Jazz",109,"Washington Wizards",77,"Utah",0,48
+"Chicago Bulls",88,"Denver Nuggets",69,"Chicago",0,48
+"Dallas Mavericks",98,"Miami Heat",92,"Dallas",0,48
+"Boston Celtics",92,"Los Angeles Clippers",84,"Los Angeles",0,48
+"Portland Trail Blazers",101,"Seattle Supersonics",96,"Portland",0,48
+"Atlanta Hawks",99,"Indiana Pacers",86,"Atlanta",0,48
+"Detroit Pistons",90,"Cleveland Cavaliers",75,"Cleveland",0,48
+"New York Knicks",117,"Los Angeles Lakers",110,"Los Angeles",0,48
+"Memphis Grizzlies",101,"Milwaukee Bucks",95,"Milwaukee",0,48
+"Minnesota Timberwolves",109,"Golden State Warriors",102,"Minnesota",0,48
+"Philadelphia 76ers",90,"New Jersey Nets",83,"New Jersey",0,48
+"New Orleans Hornets",100,"Denver Nuggets",92,"New Orleans",0,48
+"Phoenix Suns",102,"Boston Celtics",92,"Phoenix",0,48
+"San Antonio Spurs",104,"Sacramento Kings",101,"Sacramento",0,48
+"Toronto Raptors",99,"Orlando Magic",97,"Toronto",0,48
+"Detroit Pistons",93,"Miami Heat",62,"Detroit",0,48
+"Portland Trail Blazers",99,"New York Knicks",91,"Portland",0,48
+"Utah Jazz",109,"Minnesota Timberwolves",97,"Utah",0,48
+"Dallas Mavericks",105,"Atlanta Hawks",79,"Dallas",0,48
+"Boston Celtics",125,"Golden State Warriors",117,"Golden State",0,48
+"Los Angeles Lakers",106,"Houston Rockets",99,"Los Angeles",2,58
+"Memphis Grizzlies",108,"Indiana Pacers",103,"Memphis",1,53
+"New Jersey Nets",84,"Miami Heat",79,"New Jersey",0,48
+"Orlando Magic",99,"New Orleans Hornets",94,"Orlando",0,48
+"Sacramento Kings",102,"Milwaukee Bucks",93,"Sacramento",0,48
+"San Antonio Spurs",101,"Denver Nuggets",76,"San Antonio",0,48
+"Chicago Bulls",107,"Cleveland Cavaliers",101,"Cleveland",0,48
+"Philadelphia 76ers",110,"Chicago Bulls",82,"Chicago",0,48
+"Minnesota Timberwolves",85,"Denver Nuggets",77,"Denver",0,48
+"Los Angeles Clippers",110,"Milwaukee Bucks",104,"Los Angeles",0,48
+"New Orleans Hornets",87,"Washington Wizards",75,"New Orleans",0,48
+"Houston Rockets",107,"Phoenix Suns",89,"Phoenix",0,48
+"Portland Trail Blazers",125,"Golden State Warriors",98,"Portland",0,48
+"Seattle Supersonics",103,"New York Knicks",94,"Seattle",0,48
+"Detroit Pistons",89,"Toronto Raptors",84,"Toronto",0,48
+"Los Angeles Lakers",93,"Utah Jazz",87,"Utah",0,48
+"Dallas Mavericks",95,"San Antonio Spurs",87,"Dallas",0,48
+"New Jersey Nets",98,"Indiana Pacers",91,"New Jersey",0,48
+"Sacramento Kings",105,"Boston Celtics",83,"Sacramento",0,48
+"Philadelphia 76ers",119,"Cleveland Cavaliers",99,"Cleveland",0,48
+"Golden State Warriors",111,"New York Knicks",107,"Golden State",0,48
+"Dallas Mavericks",100,"Houston Rockets",85,"Houston",0,48
+"Los Angeles Lakers",92,"Portland Trail Blazers",84,"Los Angeles",0,48
+"Minnesota Timberwolves",103,"Detroit Pistons",96,"Minnesota",0,48
+"New Orleans Hornets",125,"Memphis Grizzlies",123,"New Orleans",1,53
+"Orlando Magic",110,"Chicago Bulls",96,"Orlando",0,48
+"Seattle Supersonics",88,"Milwaukee Bucks",58,"Seattle",0,48
+"Toronto Raptors",92,"Phoenix Suns",89,"Toronto",0,48
+"Washington Wizards",89,"New Jersey Nets",86,"Washington",0,48
+"New Orleans Hornets",93,"Detroit Pistons",91,"Detroit",0,48
+"Houston Rockets",93,"Memphis Grizzlies",82,"Houston",0,48
+"Atlanta Hawks",89,"Los Angeles Clippers",87,"Los Angeles",0,48
+"Miami Heat",100,"Chicago Bulls",90,"Miami",0,48
+"Milwaukee Bucks",93,"Portland Trail Blazers",90,"Portland",0,48
+"San Antonio Spurs",105,"Indiana Pacers",96,"San Antonio",0,48
+"Utah Jazz",99,"Denver Nuggets",89,"Utah",0,48
+"Golden State Warriors",115,"Atlanta Hawks",93,"Golden State",0,48
+"Los Angeles Lakers",106,"Seattle Supersonics",101,"Los Angeles",0,48
+"Minnesota Timberwolves",99,"Phoenix Suns",97,"Minnesota",0,48
+"Orlando Magic",113,"New Jersey Nets",105,"New Jersey",0,48
+"Philadelphia 76ers",116,"Cleveland Cavaliers",103,"Philadelphia",0,48
+"Sacramento Kings",99,"New York Knicks",92,"Sacramento",0,48
+"Dallas Mavericks",106,"Washington Wizards",101,"Washington",1,53
+"Houston Rockets",101,"Boston Celtics",95,"Boston",1,53
+"Chicago Bulls",90,"Phoenix Suns",87,"Chicago",0,48
+"Golden State Warriors",94,"Denver Nuggets",89,"Denver",0,48
+"Memphis Grizzlies",103,"Utah Jazz",92,"Memphis",0,48
+"Minnesota Timberwolves",117,"Milwaukee Bucks",114,"Milwaukee",0,48
+"Seattle Supersonics",86,"Detroit Pistons",79,"Seattle",0,48
+"Cleveland Cavaliers",93,"New Jersey Nets",90,"Cleveland",0,48
+"Washington Wizards",83,"Indiana Pacers",78,"Indiana",0,48
+"Los Angeles Lakers",109,"Los Angeles Clippers",98,"Los Angeles",0,48
+"New York Knicks",102,"Houston Rockets",95,"New York",0,48
+"Orlando Magic",98,"Dallas Mavericks",93,"Orlando",0,48
+"Portland Trail Blazers",89,"Atlanta Hawks",86,"Portland",0,48
+"Sacramento Kings",81,"Detroit Pistons",75,"Sacramento",0,48
+"San Antonio Spurs",84,"Miami Heat",69,"San Antonio",0,48
+"Boston Celtics",71,"Indiana Pacers",69,"Boston",0,48
+"Chicago Bulls",103,"Toronto Raptors",95,"Chicago",0,48
+"Portland Trail Blazers",94,"Denver Nuggets",84,"Denver",0,48
+"Golden State Warriors",108,"Los Angeles Clippers",94,"Los Angeles",0,48
+"Phoenix Suns",118,"Milwaukee Bucks",112,"Milwaukee",0,48
+"Minnesota Timberwolves",92,"Utah Jazz",85,"Minnesota",0,48
+"New Jersey Nets",105,"New York Knicks",76,"New Jersey",0,48
+"New Orleans Hornets",91,"Miami Heat",82,"New Orleans",0,48
+"Philadelphia 76ers",111,"Memphis Grizzlies",107,"Philadelphia",0,48
+"Seattle Supersonics",93,"Atlanta Hawks",76,"Seattle",0,48
+"Sacramento Kings",126,"Dallas Mavericks",124,"Dallas",1,53
+"Los Angeles Lakers",95,"Detroit Pistons",85,"Los Angeles",0,48
+"Washington Wizards",100,"Houston Rockets",98,"Washington",1,53
+"Boston Celtics",90,"Toronto Raptors",85,"Boston",0,48
+"Atlanta Hawks",110,"Chicago Bulls",88,"Chicago",0,48
+"New Orleans Hornets",94,"Denver Nuggets",88,"Denver",0,48
+"Indiana Pacers",107,"Milwaukee Bucks",98,"Indiana",0,48
+"Memphis Grizzlies",126,"Miami Heat",116,"Memphis",1,53
+"Minnesota Timberwolves",118,"Cleveland Cavaliers",95,"Minnesota",0,48
+"New York Knicks",118,"Orlando Magic",110,"New York",2,58
+"Philadelphia 76ers",104,"Utah Jazz",83,"Philadelphia",0,48
+"Portland Trail Blazers",109,"Los Angeles Clippers",103,"Portland",0,48
+"Seattle Supersonics",107,"Los Angeles Lakers",90,"Seattle",0,48
+"Dallas Mavericks",114,"Memphis Grizzlies",87,"Dallas",0,48
+"Golden State Warriors",92,"Detroit Pistons",90,"Golden State",0,48
+"Seattle Supersonics",109,"Los Angeles Clippers",101,"Los Angeles",0,48
+"New Orleans Hornets",97,"Phoenix Suns",92,"Phoenix",0,48
+"San Antonio Spurs",108,"Sacramento Kings",100,"San Antonio",0,48
+"Washington Wizards",101,"Chicago Bulls",93,"Washington",0,48
+"Orlando Magic",102,"Cleveland Cavaliers",76,"Cleveland",0,48
+"Philadelphia 76ers",100,"Denver Nuggets",94,"Denver",0,48
+"San Antonio Spurs",97,"Houston Rockets",88,"Houston",0,48
+"Miami Heat",93,"Washington Wizards",83,"Miami",0,48
+"Milwaukee Bucks",120,"Atlanta Hawks",93,"Milwaukee",0,48
+"Minnesota Timberwolves",99,"New York Knicks",90,"Minnesota",0,48
+"Utah Jazz",91,"New Jersey Nets",90,"New Jersey",0,48
+"Portland Trail Blazers",103,"Detroit Pistons",86,"Portland",0,48
+"Toronto Raptors",104,"Boston Celtics",92,"Toronto",0,48
+"Orlando Magic",104,"Chicago Bulls",89,"Chicago",0,48
+"New Orleans Hornets",111,"Los Angeles Clippers",108,"Los Angeles",0,48
+"Boston Celtics",111,"Memphis Grizzlies",110,"Memphis",0,48
+"Sacramento Kings",107,"Philadelphia 76ers",99,"Sacramento",0,48
+"Atlanta Hawks",92,"Denver Nuggets",86,"Atlanta",0,48
+"Dallas Mavericks",88,"New Jersey Nets",79,"Dallas",0,48
+"Detroit Pistons",96,"Houston Rockets",83,"Detroit",0,48
+"Golden State Warriors",107,"Indiana Pacers",100,"Golden State",0,48
+"Milwaukee Bucks",100,"Miami Heat",91,"Miami",0,48
+"New York Knicks",89,"Cleveland Cavaliers",80,"New York",0,48
+"Phoenix Suns",104,"San Antonio Spurs",97,"San Antonio",0,48
+"Seattle Supersonics",92,"Minnesota Timberwolves",83,"Seattle",0,48
+"Toronto Raptors",89,"Washington Wizards",86,"Washington",0,48
+"Boston Celtics",97,"New York Knicks",95,"Boston",0,48
+"Atlanta Hawks",111,"Cleveland Cavaliers",105,"Cleveland",0,48
+"Los Angeles Lakers",97,"Indiana Pacers",95,"Los Angeles",0,48
+"Memphis Grizzlies",96,"Denver Nuggets",86,"Memphis",0,48
+"Orlando Magic",111,"Milwaukee Bucks",99,"Orlando",0,48
+"Phoenix Suns",98,"Portland Trail Blazers",92,"Phoenix",0,48
+"Sacramento Kings",96,"Minnesota Timberwolves",95,"Sacramento",1,53
+"Houston Rockets",97,"Toronto Raptors",95,"Toronto",0,48
+"Utah Jazz",94,"Seattle Supersonics",83,"Utah",0,48
+"Washington Wizards",99,"Los Angeles Clippers",80,"Washington",0,48
+"Chicago Bulls",119,"Golden State Warriors",105,"Chicago",0,48
+"Philadelphia 76ers",88,"Portland Trail Blazers",60,"Portland",0,48
+"San Antonio Spurs",92,"New Jersey Nets",78,"San Antonio",0,48
+"Boston Celtics",83,"Los Angeles Clippers",72,"Boston",0,48
+"Los Angeles Lakers",106,"Minnesota Timberwolves",96,"Los Angeles",0,48
+"Dallas Mavericks",91,"Miami Heat",89,"Miami",0,48
+"New Orleans Hornets",102,"Cleveland Cavaliers",76,"New Orleans",0,48
+"New York Knicks",111,"Orlando Magic",102,"Orlando",0,48
+"Philadelphia 76ers",108,"Seattle Supersonics",99,"Seattle",0,48
+"Sacramento Kings",108,"Utah Jazz",105,"Utah",1,53
+"Milwaukee Bucks",85,"Washington Wizards",82,"Washington",0,48
+"Toronto Raptors",107,"Atlanta Hawks",98,"Atlanta",0,48
+"Los Angeles Clippers",103,"Chicago Bulls",97,"Chicago",0,48
+"Memphis Grizzlies",115,"Cleveland Cavaliers",89,"Cleveland",0,48
+"Dallas Mavericks",101,"Utah Jazz",77,"Dallas",0,48
+"Houston Rockets",83,"New Jersey Nets",71,"Houston",0,48
+"Denver Nuggets",98,"Miami Heat",92,"Miami",0,48
+"Milwaukee Bucks",138,"Golden State Warriors",133,"Milwaukee",1,53
+"Portland Trail Blazers",94,"Indiana Pacers",80,"Portland",0,48
+"San Antonio Spurs",94,"Boston Celtics",78,"Boston",0,48
+"Detroit Pistons",107,"Golden State Warriors",105,"Detroit",0,48
+"Los Angeles Lakers",106,"Philadelphia 76ers",92,"Los Angeles",0,48
+"New Jersey Nets",102,"New Orleans Hornets",92,"New Orleans",0,48
+"New York Knicks",97,"Washington Wizards",96,"New York",0,48
+"Orlando Magic",111,"Denver Nuggets",98,"Orlando",0,48
+"Minnesota Timberwolves",105,"Phoenix Suns",98,"Phoenix",0,48
+"Sacramento Kings",107,"Indiana Pacers",88,"Sacramento",0,48
+"Memphis Grizzlies",119,"Toronto Raptors",106,"Toronto",0,48
+"Atlanta Hawks",95,"Los Angeles Clippers",86,"Atlanta",0,48
+"Minnesota Timberwolves",92,"Dallas Mavericks",83,"Dallas",0,48
+"Utah Jazz",83,"Miami Heat",73,"Miami",0,48
+"Chicago Bulls",116,"Los Angeles Lakers",99,"Chicago",0,48
+"Miami Heat",77,"Cleveland Cavaliers",75,"Cleveland",0,48
+"Denver Nuggets",95,"Toronto Raptors",87,"Denver",0,48
+"Golden State Warriors",113,"Phoenix Suns",98,"Golden State",0,48
+"New Orleans Hornets",81,"Indiana Pacers",71,"Indiana",0,48
+"San Antonio Spurs",105,"Milwaukee Bucks",102,"Milwaukee",0,48
+"Memphis Grizzlies",87,"New York Knicks",85,"New York",0,48
+"Portland Trail Blazers",92,"Seattle Supersonics",77,"Seattle",0,48
+"Washington Wizards",106,"Orlando Magic",105,"Washington",0,48
+"Atlanta Hawks",111,"Milwaukee Bucks",92,"Atlanta",0,48
+"Boston Celtics",93,"New Orleans Hornets",65,"Boston",0,48
+"Detroit Pistons",111,"Los Angeles Lakers",88,"Detroit",0,48
+"Houston Rockets",118,"Los Angeles Clippers",114,"Houston",1,53
+"Memphis Grizzlies",124,"Chicago Bulls",95,"Memphis",0,48
+"San Antonio Spurs",111,"Minnesota Timberwolves",99,"Minnesota",0,48
+"Utah Jazz",111,"Orlando Magic",108,"Orlando",0,48
+"Philadelphia 76ers",96,"Indiana Pacers",93,"Philadelphia",0,48
+"Portland Trail Blazers",125,"Toronto Raptors",103,"Portland",0,48
+"New Jersey Nets",90,"Boston Celtics",75,"New Jersey",0,48
+"Phoenix Suns",109,"Sacramento Kings",84,"Phoenix",0,48
+"Seattle Supersonics",107,"Dallas Mavericks",100,"Seattle",0,48
+"Atlanta Hawks",107,"New York Knicks",104,"Atlanta",0,48
+"Detroit Pistons",90,"Washington Wizards",80,"Detroit",0,48
+"Dallas Mavericks",116,"Golden State Warriors",114,"Golden State",0,48
+"Houston Rockets",121,"Chicago Bulls",91,"Houston",0,48
+"Indiana Pacers",101,"Utah Jazz",81,"Indiana",0,48
+"New Orleans Hornets",87,"Miami Heat",83,"Miami",0,48
+"Los Angeles Lakers",106,"Minnesota Timberwolves",99,"Minnesota",0,48
+"Philadelphia 76ers",90,"Portland Trail Blazers",79,"Philadelphia",0,48
+"Sacramento Kings",119,"Toronto Raptors",84,"Sacramento",0,48
+"San Antonio Spurs",107,"Los Angeles Clippers",96,"San Antonio",0,48
+"Boston Celtics",81,"Detroit Pistons",71,"Detroit",0,48
+"Los Angeles Lakers",98,"Milwaukee Bucks",94,"Milwaukee",0,48
+"Orlando Magic",96,"New Orleans Hornets",86,"Orlando",0,48
+"Golden State Warriors",94,"Seattle Supersonics",88,"Seattle",0,48
+"Washington Wizards",89,"Miami Heat",82,"Washington",0,48
+"Cleveland Cavaliers",122,"Utah Jazz",95,"Cleveland",0,48
+"Seattle Supersonics",92,"Denver Nuggets",84,"Denver",0,48
+"Houston Rockets",85,"Phoenix Suns",75,"Houston",0,48
+"Los Angeles Clippers",111,"Toronto Raptors",110,"Los Angeles",0,48
+"Memphis Grizzlies",124,"Atlanta Hawks",92,"Memphis",0,48
+"Minnesota Timberwolves",111,"Portland Trail Blazers",95,"Minnesota",0,48
+"Philadelphia 76ers",92,"New Jersey Nets",87,"New Jersey",0,48
+"New York Knicks",120,"Milwaukee Bucks",111,"New York",0,48
+"Dallas Mavericks",129,"Sacramento Kings",123,"Sacramento",1,53
+"San Antonio Spurs",108,"Chicago Bulls",97,"San Antonio",0,48
+"Portland Trail Blazers",95,"Indiana Pacers",88,"Indiana",0,48
+"Los Angeles Lakers",102,"Los Angeles Clippers",85,"Los Angeles",0,48
+"Phoenix Suns",95,"Toronto Raptors",91,"Phoenix",1,53
+"New Jersey Nets",87,"Boston Celtics",74,"Boston",0,48
+"Chicago Bulls",103,"Atlanta Hawks",78,"Chicago",0,48
+"Dallas Mavericks",114,"Cleveland Cavaliers",93,"Dallas",0,48
+"Philadelphia 76ers",103,"Miami Heat",83,"Miami",0,48
+"Minnesota Timberwolves",96,"Memphis Grizzlies",80,"Minnesota",0,48
+"Sacramento Kings",117,"Golden State Warriors",91,"Sacramento",0,48
+"New York Knicks",105,"San Antonio Spurs",97,"San Antonio",0,48
+"Seattle Supersonics",100,"Houston Rockets",94,"Seattle",0,48
+"Utah Jazz",99,"Denver Nuggets",81,"Utah",0,48
+"Detroit Pistons",94,"Washington Wizards",90,"Washington",1,53
+"Golden State Warriors",105,"Seattle Supersonics",99,"Golden State",0,48
+"Indiana Pacers",102,"Boston Celtics",72,"Indiana",0,48
+"Los Angeles Clippers",91,"Denver Nuggets",78,"Los Angeles",0,48
+"Memphis Grizzlies",128,"Cleveland Cavaliers",101,"Memphis",0,48
+"Milwaukee Bucks",104,"New Jersey Nets",85,"New Jersey",0,48
+"New Orleans Hornets",101,"New York Knicks",96,"New Orleans",0,48
+"Orlando Magic",109,"Miami Heat",93,"Orlando",0,48
+"Utah Jazz",99,"Phoenix Suns",86,"Phoenix",0,48
+"Portland Trail Blazers",94,"Houston Rockets",83,"Portland",0,48
+"Toronto Raptors",87,"Atlanta Hawks",86,"Toronto",0,48
+"San Antonio Spurs",112,"Dallas Mavericks",110,"Dallas",1,53
+"Detroit Pistons",113,"Philadelphia 76ers",85,"Detroit",0,48
+"Sacramento Kings",107,"Los Angeles Lakers",99,"Sacramento",0,48
+"Houston Rockets",117,"Golden State Warriors",107,"Golden State",0,48
+"Indiana Pacers",101,"Memphis Grizzlies",92,"Indiana",0,48
+"Los Angeles Lakers",104,"Boston Celtics",96,"Los Angeles",0,48
+"Miami Heat",107,"Toronto Raptors",98,"Miami",0,48
+"New Orleans Hornets",113,"Milwaukee Bucks",98,"New Orleans",0,48
+"New York Knicks",97,"Detroit Pistons",93,"New York",0,48
+"Orlando Magic",109,"Cleveland Cavaliers",85,"Orlando",0,48
+"Atlanta Hawks",114,"Philadelphia 76ers",105,"Philadelphia",0,48
+"Phoenix Suns",109,"Washington Wizards",83,"Phoenix",0,48
+"Minnesota Timberwolves",101,"San Antonio Spurs",94,"San Antonio",1,53
+"Seattle Supersonics",101,"Denver Nuggets",99,"Seattle",1,53
+"Atlanta Hawks",92,"Indiana Pacers",89,"Atlanta",0,48
+"Chicago Bulls",100,"New York Knicks",98,"Chicago",0,48
+"Dallas Mavericks",102,"Phoenix Suns",95,"Dallas",0,48
+"Denver Nuggets",90,"Boston Celtics",80,"Denver",0,48
+"Milwaukee Bucks",93,"New Orleans Hornets",85,"Milwaukee",0,48
+"New Jersey Nets",107,"Memphis Grizzlies",99,"New Jersey",0,48
+"Sacramento Kings",113,"Portland Trail Blazers",104,"Portland",0,48
+"Utah Jazz",88,"Los Angeles Clippers",73,"Utah",0,48
+"Cleveland Cavaliers",93,"New Jersey Nets",88,"Cleveland",0,48
+"Detroit Pistons",105,"Chicago Bulls",82,"Detroit",0,48
+"Golden State Warriors",113,"Washington Wizards",107,"Golden State",0,48
+"Orlando Magic",96,"Miami Heat",74,"Miami",0,48
+"Sacramento Kings",109,"Houston Rockets",108,"Sacramento",0,48
+"San Antonio Spurs",98,"Los Angeles Lakers",89,"San Antonio",0,48
+"Philadelphia 76ers",112,"Toronto Raptors",95,"Toronto",0,48
+"Dallas Mavericks",108,"Denver Nuggets",96,"Denver",0,48
+"Houston Rockets",108,"Los Angeles Clippers",90,"Los Angeles",0,48
+"New York Knicks",100,"Toronto Raptors",90,"New York",0,48
+"Memphis Grizzlies",110,"Orlando Magic",104,"Orlando",0,48
+"Seattle Supersonics",82,"Phoenix Suns",73,"Phoenix",0,48
+"Utah Jazz",96,"Boston Celtics",91,"Utah",0,48
+"Minnesota Timberwolves",108,"Miami Heat",91,"Minnesota",0,48
+"Washington Wizards",95,"Portland Trail Blazers",91,"Portland",0,48
+"San Antonio Spurs",107,"Milwaukee Bucks",94,"San Antonio",0,48
+"Los Angeles Lakers",108,"Atlanta Hawks",91,"Atlanta",0,48
+"Cleveland Cavaliers",124,"Golden State Warriors",103,"Cleveland",0,48
+"Golden State Warriors",107,"Boston Celtics",95,"Boston",0,48
+"Chicago Bulls",82,"Miami Heat",74,"Chicago",0,48
+"Denver Nuggets",108,"Milwaukee Bucks",103,"Denver",0,48
+"Detroit Pistons",102,"Atlanta Hawks",99,"Detroit",1,53
+"Los Angeles Lakers",96,"Houston Rockets",93,"Houston",0,48
+"Philadelphia 76ers",91,"Indiana Pacers",85,"Indiana",0,48
+"Dallas Mavericks",114,"Los Angeles Clippers",107,"Los Angeles",0,48
+"Phoenix Suns",101,"Memphis Grizzlies",99,"Memphis",0,48
+"New Jersey Nets",101,"New York Knicks",95,"New Jersey",0,48
+"Orlando Magic",97,"New Orleans Hornets",95,"New Orleans",0,48
+"Washington Wizards",80,"Seattle Supersonics",74,"Seattle",0,48
+"Toronto Raptors",89,"Cleveland Cavaliers",83,"Toronto",0,48
+"Utah Jazz",94,"Portland Trail Blazers",85,"Utah",0,48
+"Orlando Magic",110,"Minnesota Timberwolves",107,"Orlando",0,48
+"Sacramento Kings",93,"Los Angeles Clippers",83,"Sacramento",0,48
+"San Antonio Spurs",98,"Houston Rockets",85,"San Antonio",0,48
+"Boston Celtics",104,"Cleveland Cavaliers",95,"Boston",0,48
+"Phoenix Suns",94,"Detroit Pistons",91,"Detroit",0,48
+"Indiana Pacers",140,"Chicago Bulls",89,"Indiana",0,48
+"Los Angeles Lakers",108,"Washington Wizards",94,"Los Angeles",0,48
+"Miami Heat",111,"Minnesota Timberwolves",84,"Miami",0,48
+"New Jersey Nets",122,"New York Knicks",101,"New York",0,48
+"Golden State Warriors",102,"Philadelphia 76ers",98,"Philadelphia",0,48
+"Portland Trail Blazers",112,"Dallas Mavericks",95,"Portland",0,48
+"Seattle Supersonics",95,"Memphis Grizzlies",71,"Seattle",0,48
+"New Orleans Hornets",101,"Toronto Raptors",92,"Toronto",0,48
+"Utah Jazz",103,"Milwaukee Bucks",90,"Utah",0,48
+"Philadelphia 76ers",110,"Atlanta Hawks",89,"Atlanta",0,48
+"Sacramento Kings",107,"Chicago Bulls",92,"Chicago",0,48
+"Boston Celtics",110,"Cleveland Cavaliers",106,"Cleveland",0,48
+"Houston Rockets",102,"Denver Nuggets",89,"Houston",0,48
+"New Jersey Nets",109,"Golden State Warriors",97,"New Jersey",0,48
+"San Antonio Spurs",101,"Utah Jazz",81,"San Antonio",0,48
+"Denver Nuggets",88,"Washington Wizards",72,"Denver",0,48
+"Detroit Pistons",99,"Sacramento Kings",88,"Detroit",0,48
+"Indiana Pacers",92,"Phoenix Suns",81,"Indiana",0,48
+"Los Angeles Clippers",102,"Memphis Grizzlies",100,"Los Angeles",0,48
+"Milwaukee Bucks",109,"Miami Heat",87,"Milwaukee",0,48
+"Dallas Mavericks",119,"Minnesota Timberwolves",95,"Minnesota",0,48
+"San Antonio Spurs",92,"New Orleans Hornets",90,"New Orleans",0,48
+"Seattle Supersonics",119,"Los Angeles Lakers",98,"Seattle",0,48
+"Toronto Raptors",95,"New York Knicks",86,"Toronto",0,48
+"Los Angeles Lakers",110,"Memphis Grizzlies",94,"Los Angeles",0,48
+"Milwaukee Bucks",91,"Miami Heat",86,"Miami",0,48
+"New Jersey Nets",110,"Houston Rockets",86,"New Jersey",0,48
+"Philadelphia 76ers",118,"Orlando Magic",113,"Orlando",1,53
+"Seattle Supersonics",101,"Chicago Bulls",94,"Chicago",1,53
+"Dallas Mavericks",95,"New Orleans Hornets",86,"Dallas",0,48
+"Sacramento Kings",103,"Indiana Pacers",98,"Indiana",0,48
+"Utah Jazz",94,"Los Angeles Clippers",89,"Los Angeles",0,48
+"Phoenix Suns",95,"Denver Nuggets",65,"Phoenix",0,48
+"Portland Trail Blazers",100,"Golden State Warriors",86,"Portland",0,48
+"San Antonio Spurs",118,"Orlando Magic",105,"San Antonio",0,48
+"Detroit Pistons",92,"Toronto Raptors",85,"Toronto",0,48
+"Boston Celtics",90,"Miami Heat",62,"Boston",0,48
+"Indiana Pacers",103,"Cleveland Cavaliers",82,"Cleveland",0,48
+"New York Knicks",83,"Denver Nuggets",75,"Denver",0,48
+"Toronto Raptors",89,"Detroit Pistons",78,"Detroit",0,48
+"San Antonio Spurs",105,"Memphis Grizzlies",87,"Memphis",0,48
+"Milwaukee Bucks",106,"Houston Rockets",99,"Milwaukee",0,48
+"Minnesota Timberwolves",91,"Seattle Supersonics",86,"Minnesota",0,48
+"New Orleans Hornets",106,"New Jersey Nets",97,"New Orleans",0,48
+"Philadelphia 76ers",108,"Chicago Bulls",101,"Philadelphia",0,48
+"Sacramento Kings",105,"Washington Wizards",99,"Washington",0,48
+"Atlanta Hawks",91,"Washington Wizards",89,"Atlanta",0,48
+"Los Angeles Lakers",100,"Dallas Mavericks",89,"Dallas",0,48
+"Utah Jazz",93,"Portland Trail Blazers",88,"Portland",0,48
+"Sacramento Kings",93,"Boston Celtics",92,"Boston",0,48
+"Indiana Pacers",98,"Detroit Pistons",92,"Detroit",0,48
+"Portland Trail Blazers",122,"Golden State Warriors",100,"Golden State",0,48
+"Los Angeles Lakers",102,"Memphis Grizzlies",101,"Memphis",0,48
+"Milwaukee Bucks",95,"Cleveland Cavaliers",93,"Milwaukee",0,48
+"New Jersey Nets",99,"Miami Heat",83,"New Jersey",0,48
+"Houston Rockets",88,"Philadelphia 76ers",79,"Philadelphia",0,48
+"Seattle Supersonics",101,"Los Angeles Clippers",93,"Seattle",0,48
+"San Antonio Spurs",124,"Toronto Raptors",98,"Toronto",0,48
+"New York Knicks",94,"Utah Jazz",92,"Utah",1,53
+"Atlanta Hawks",97,"Memphis Grizzlies",91,"Atlanta",0,48
+"Chicago Bulls",117,"Milwaukee Bucks",115,"Chicago",1,53
+"Cleveland Cavaliers",79,"New Orleans Hornets",76,"Cleveland",0,48
+"Dallas Mavericks",108,"Orlando Magic",90,"Dallas",0,48
+"Los Angeles Clippers",109,"New York Knicks",98,"Los Angeles",0,48
+"Phoenix Suns",111,"Minnesota Timberwolves",94,"Phoenix",0,48
+"Washington Wizards",99,"Boston Celtics",98,"Boston",1,53
+"San Antonio Spurs",89,"Detroit Pistons",83,"Detroit",0,48
+"Golden State Warriors",106,"Denver Nuggets",99,"Golden State",0,48
+"Houston Rockets",114,"Orlando Magic",93,"Houston",0,48
+"Indiana Pacers",90,"Miami Heat",69,"Indiana",0,48
+"Los Angeles Lakers",115,"Phoenix Suns",113,"Los Angeles",1,53
+"Sacramento Kings",97,"Philadelphia 76ers",81,"Philadelphia",0,48
+"Minnesota Timberwolves",97,"Portland Trail Blazers",78,"Portland",0,48
+"Seattle Supersonics",82,"Utah Jazz",80,"Seattle",0,48
+"New Jersey Nets",96,"Toronto Raptors",87,"Toronto",0,48
+"Chicago Bulls",115,"Indiana Pacers",103,"Chicago",0,48
+"Washington Wizards",100,"Cleveland Cavaliers",91,"Cleveland",0,48
+"Phoenix Suns",98,"Denver Nuggets",78,"Denver",0,48
+"Golden State Warriors",128,"Utah Jazz",102,"Golden State",0,48
+"Portland Trail Blazers",81,"Houston Rockets",66,"Houston",0,48
+"Los Angeles Lakers",108,"Dallas Mavericks",99,"Los Angeles",0,48
+"Memphis Grizzlies",111,"Los Angeles Clippers",108,"Memphis",0,48
+"Miami Heat",89,"Toronto Raptors",83,"Miami",0,48
+"New York Knicks",99,"Atlanta Hawks",95,"New York",0,48
+"Philadelphia 76ers",91,"Detroit Pistons",74,"Philadelphia",0,48
+"Sacramento Kings",107,"Seattle Supersonics",85,"Sacramento",0,48
+"Atlanta Hawks",97,"New Jersey Nets",92,"Atlanta",0,48
+"Detroit Pistons",111,"Chicago Bulls",102,"Detroit",1,53
+"Milwaukee Bucks",112,"Los Angeles Clippers",92,"Milwaukee",0,48
+"New Orleans Hornets",100,"Cleveland Cavaliers",81,"New Orleans",0,48
+"Orlando Magic",88,"Toronto Raptors",82,"Orlando",0,48
+"Phoenix Suns",112,"Dallas Mavericks",89,"Phoenix",0,48
+"San Antonio Spurs",84,"Portland Trail Blazers",79,"San Antonio",0,48
+"Seattle Supersonics",100,"Minnesota Timberwolves",92,"Seattle",0,48
+"Utah Jazz",94,"Houston Rockets",73,"Utah",0,48
+"Boston Celtics",87,"Washington Wizards",83,"Washington",0,48
+"Philadelphia 76ers",99,"Boston Celtics",78,"Boston",0,48
+"Los Angeles Lakers",117,"Sacramento Kings",104,"Los Angeles",0,48
+"Atlanta Hawks",109,"Cleveland Cavaliers",89,"Atlanta",0,48
+"Chicago Bulls",95,"New Jersey Nets",86,"Chicago",0,48
+"Orlando Magic",98,"Indiana Pacers",86,"Indiana",0,48
+"Memphis Grizzlies",96,"Portland Trail Blazers",93,"Memphis",0,48
+"Washington Wizards",91,"Miami Heat",87,"Miami",0,48
+"Minnesota Timberwolves",106,"Los Angeles Clippers",90,"Minnesota",0,48
+"New Orleans Hornets",93,"Detroit Pistons",89,"New Orleans",0,48
+"New York Knicks",108,"Philadelphia 76ers",103,"New York",0,48
+"Phoenix Suns",117,"Golden State Warriors",101,"Phoenix",0,48
+"Sacramento Kings",105,"Denver Nuggets",103,"Sacramento",0,48
+"San Antonio Spurs",94,"Seattle Supersonics",86,"San Antonio",0,48
+"Milwaukee Bucks",105,"Toronto Raptors",103,"Toronto",0,48
+"Utah Jazz",95,"Dallas Mavericks",92,"Utah",0,48
+"Cleveland Cavaliers",104,"New York Knicks",99,"Cleveland",1,53
+"Dallas Mavericks",117,"Golden State Warriors",108,"Dallas",0,48
+"Los Angeles Clippers",101,"Denver Nuggets",79,"Denver",0,48
+"Houston Rockets",101,"Seattle Supersonics",86,"Houston",0,48
+"New Jersey Nets",94,"Toronto Raptors",86,"New Jersey",0,48
+"Orlando Magic",89,"Boston Celtics",86,"Orlando",0,48
+"Atlanta Hawks",101,"Washington Wizards",100,"Washington",0,48
+"Detroit Pistons",110,"Memphis Grizzlies",107,"Memphis",2,58
+"Boston Celtics",94,"Miami Heat",86,"Miami",0,48
+"Milwaukee Bucks",107,"Indiana Pacers",98,"Milwaukee",0,48
+"Minnesota Timberwolves",119,"Chicago Bulls",95,"Minnesota",0,48
+"New Orleans Hornets",94,"Philadelphia 76ers",89,"Philadelphia",0,48
+"Phoenix Suns",92,"San Antonio Spurs",85,"Phoenix",0,48
+"Portland Trail Blazers",101,"Los Angeles Lakers",99,"Portland",0,48
+"Atlanta Hawks",100,"Orlando Magic",84,"Atlanta",0,48
+"Dallas Mavericks",109,"Seattle Supersonics",106,"Dallas",0,48
+"Detroit Pistons",89,"Cleveland Cavaliers",88,"Detroit",0,48
+"Los Angeles Clippers",122,"Golden State Warriors",113,"Golden State",0,48
+"New Orleans Hornets",87,"New Jersey Nets",74,"New Jersey",0,48
+"San Antonio Spurs",91,"Utah Jazz",83,"Utah",0,48
+"New York Knicks",93,"Washington Wizards",79,"Washington",0,48
+"Chicago Bulls",115,"Philadelphia 76ers",106,"Chicago",0,48
+"Houston Rockets",97,"Memphis Grizzlies",86,"Houston",0,48
+"Los Angeles Lakers",126,"Denver Nuggets",104,"Los Angeles",0,48
+"Indiana Pacers",109,"New York Knicks",93,"New York",0,48
+"Portland Trail Blazers",120,"Phoenix Suns",102,"Portland",0,48
+"Miami Heat",103,"Toronto Raptors",99,"Toronto",0,48
+"Boston Celtics",99,"Detroit Pistons",92,"Boston",0,48
+"Cleveland Cavaliers",96,"Toronto Raptors",86,"Cleveland",0,48
+"Houston Rockets",89,"Denver Nuggets",84,"Denver",0,48
+"Los Angeles Lakers",117,"Golden State Warriors",111,"Golden State",0,48
+"Indiana Pacers",90,"New Jersey Nets",83,"Indiana",0,48
+"Los Angeles Clippers",107,"Portland Trail Blazers",93,"Los Angeles",0,48
+"Minnesota Timberwolves",95,"Memphis Grizzlies",87,"Memphis",0,48
+"Milwaukee Bucks",93,"Orlando Magic",87,"Milwaukee",0,48
+"New Orleans Hornets",92,"Atlanta Hawks",77,"New Orleans",0,48
+"Philadelphia 76ers",107,"Washington Wizards",87,"Philadelphia",0,48
+"Sacramento Kings",95,"Utah Jazz",84,"Sacramento",0,48
+"Dallas Mavericks",93,"San Antonio Spurs",72,"San Antonio",0,48
+"Seattle Supersonics",84,"Phoenix Suns",70,"Seattle",0,48
