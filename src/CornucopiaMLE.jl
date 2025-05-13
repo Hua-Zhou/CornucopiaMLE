@@ -1,4 +1,4 @@
-module Cornucopia
+module CornucopiaMLE
 
 
 include("PoiSpoModel.jl")
